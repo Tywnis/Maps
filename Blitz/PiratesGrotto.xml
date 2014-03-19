@@ -1,135 +1,136 @@
 <?xml version="1.0"?>
  
 <map proto="1.3.2">
-<name>DeadWater : Pirate's Grotto</name>
-<version>0.1.2</version>
-<objective>Eliminate the other team with in 5 minuets.</objective>
-<authors>
-     <author>minimitch0199</author>
-</authors>
-<rules>
-     <rule>No spawnkilling!</rule>
-     <rule>No climbing the walls!</rule>
-</rules>
-<blitz>
-     <time>5m</time>
-         <lives>3</lives>
-         <broadcastLives>true</broadcastLives>
-         <title>Blitz</title
-<teams>
-     <team color="blue" max="12" max-overfill="15">blue</team>
-     <team color="dark red" max="12" max-overfill="15">red</team>
-</teams>
-<kits>
-     <kit name="spawn">
-         <item slot="0">iron sword</item>
-         <item slot="1">bow</item>
-         <item slot="3" amount="8">arrow</item>
-         <item slot="7" amount="1">golden apple</item>
-         <item slot="8" amount="32">bread</item>
-         <chestplate enchantment="protection:1">chain chestplate</chestplate>
-     </kit>
-     <kit name="blue" parents="spawn">
-         <leggings color="0066cc">leather leggings</leggings>
-         <boots color="0066cc" enchantment="protection fall:1">leather boots</boots>
-     </kit>
-     <kit name="red" parents="spawn">
-         <leggings color="cd0000">leather leggings</leggings>
-         <boots color="cd0000" enchantment="protection fall:1">leather boots</boots>
-     </kit>
-         <kit name="poison">
-             <potion duration="3" amplifier="2">poison</potion>
-         </kit>
-</kits>
-<toolrepair>
-     <tool>iron sword</tool>
-     <tool>bow</tool>
-</toolrepair>
-<itemremove>
-     <item>chain chestplate</item>
-     <item>leather leggings</item>
-     <item>leather boots</item>
-</itemremove>
-<killreward>
-     <item amount="3">arrow</item>
-</killreward>
-<disabledamage>
-     <damage>magic</damage>
-</disabledamage>
-<gamerules>
-     <doDaylightCycle>false</doDaylightCycle>
-</gamerules>
-<friendlyfirerefund>off</friendlyfirerefund>
-<difficulty>1</difficulty>
-<autorespawn time="3s"/>
-<spawns>
-     <spawn team="blue" kit="blue" yaw="179">
-         <cuboid min="111,30,63" max="111,30,63"/>
-     </spawn>
-     <spawn team="red" kit="red" yaw="0">
-         <cuboid min="113,30,-63" max="113,30,-63"/>
-     </spawn>
-     <default yaw="-88">
-         <cuboid min="0,66,0" max="0,66,0"/>
-     </defualt>
-</spawns>
-<playable>
+  <name>DeadWater : Pirate's Grotto</name>
+  <version>0.1.2</version>
+  <objective>Eliminate the other team with in 5 minuets.</objective>
+  <authors>
+    <author>minimitch0199</author>
+  </authors>
+  <rules>
+    <rule>No spawnkilling!</rule>
+    <rule>No climbing the walls!</rule>
+  </rules>
+  <blitz>
+    <time>5m</time>
+    <lives>3</lives>
+    <broadcastLives>true</broadcastLives>
+    <title>Blitz</title>
+  </blitz>
+  <teams>
+    <team color="blue" max="12" max-overfill="15">blue</team>
+    <team color="dark red" max="12" max-overfill="15">red</team>
+  </teams>
+  <kits>
+    <kit name="spawn">
+      <item slot="0">iron sword</item>
+      <item slot="1">bow</item>
+      <item slot="3" amount="8">arrow</item>
+      <item slot="7" amount="1">golden apple</item>
+      <item slot="8" amount="32">bread</item>
+      <chestplate enchantment="protection:1">chain chestplate</chestplate>
+    </kit>
+    <kit name="blue" parents="spawn">
+      <leggings color="0066cc">leather leggings</leggings>
+      <boots color="0066cc" enchantment="protection fall:1">leather boots</boots>
+    </kit>
+    <kit name="red" parents="spawn">
+      <leggings color="cd0000">leather leggings</leggings>
+      <boots color="cd0000" enchantment="protection fall:1">leather boots</boots>
+    </kit>
+    <kit name="poison">
+      <potion duration="3" amplifier="2">poison</potion>
+    </kit>
+  </kits>
+  <toolrepair>
+    <tool>iron sword</tool>
+    <tool>bow</tool>
+  </toolrepair>
+  <itemremove>
+    <item>chain chestplate</item>
+    <item>leather leggings</item>
+    <item>leather boots</item>
+  </itemremove>
+  <killreward>
+    <item amount="3">arrow</item>
+  </killreward>
+  <disabledamage>
+    <damage>magic</damage>
+  </disabledamage>
+  <gamerules>
+    <doDaylightCycle>false</doDaylightCycle>
+  </gamerules>
+  <friendlyfirerefund>off</friendlyfirerefund>
+  <difficulty>1</difficulty>
+  <autorespawn time="3s"/>
+  <spawns>
+    <spawn team="blue" kit="blue" yaw="179">
+        <cuboid min="111,30,63" max="111,30,63"/>
+    </spawn>
+    <spawn team="red" kit="red" yaw="0">
+        <cuboid min="113,30,-63" max="113,30,-63"/>
+    </spawn>
+    <default yaw="-88">
+        <cuboid min="0,66,0" max="0,66,0"/>
+    </defualt>
+  </spawns>
+  <playable>
     <cuboid min="142,35,68" max="85,-25,-68"/>
-</playable>
-<filter name="only-blue" parents="deny-players">
-     <allow><team>blue</team></allow>
-</filter>
-<filter name="only-red" parents="deny-players">
-     <allow><team>red</team></allow>
-</filter>
-<filter name="blocks" parents="deny-blocks"></filters>
-<regions>
-     <!-- Blue Base -->
-         <apply enter="only-blue" message="You may not enter the enemy team's base!">
-             <cuboid min="120,14,66" max="106,42,50"/>
-         </apply>
-         <!-- Red Base -->
-         <apply enter="only-red" message="You may not enter the enemy team's base!">
-             <cuboid min="104,14,-67" max="118,42,-51"/>
-         </apply>
-         <!-- Playing Area -->
-         <apply block="blocks" message="You may not modify the playing area!">
-             <cuboid min="142,35,68" max="85,-25,-68">
-         </apply>
-         <!-- Blue Base Poison Pools -->
-         <rectangle name="blue-poison" min="120,28,62" max="107,28,55"/>
-         <!-- Blue Junction Pools -->
-         <rectangle name="blue-junction" min="117,28,43" max="123,28,35"/>
-         <!-- Left Pools Blue -->
-         <rectangle name="blue-left" min="91,28,27" max="106,28,42"/>
-         <!-- Right Pools Blue -->
-         <rectangle name="blue-right" min="123,28,31" max="138,28,38"/>
-         <!-- Center Pool Blue -->
-         <rectangle name="blue-center" min="98,26,21" max="128,26,12"/>
-         <!-- Lower Pools -->
-         <rectangle name="lower-pools" min="83,16,-10" max="142,16,10"/>
-         <!-- Red Base Poison Pools -->
-         <rectangle name="red-poison" min="105,28,-56" max="118,28,-62"/>
-         <!-- Red Junction Pools -->
-         <rectangle name="red-junction" min="108,28,-43" max="102,28,-35"/>
-         <!-- Left Pools Red -->
-         <rectangle name="red-left" min="119,28,-42" max="134,28,-27"/>
-         <!-- Right Pools Red -->
-         <rectangle name="red-right" min="102,28,-31" max="87,28,-38"/>
-         <!-- Center Pool Red -->
-         <rectangle name="red-center" min="127,26,-21" max="97,26,-12"/>
-         <apply kit="poison">
-             <region name="blue-poison"/>
-             <region name="blue-junction"/>
-             <region name="blue-left"/>
-             <region name="blue-right"/>
-             <region name="blue-center"/>
-             <region name="lower-pools"/>
-             <region name="red-poison"/>
-             <region name="red-junction"/>
-             <region name="red-left"/>
-             <region name="red-right"/>
-             <region name="red-center"/>
-         </apply>
-</regions>
+  </playable>
+  <filter name="only-blue" parents="deny-players">
+    <allow><team>blue</team></allow>
+  </filter>
+  <filter name="only-red" parents="deny-players">
+    <allow><team>red</team></allow>
+  </filter>
+  <filter name="blocks" parents="deny-blocks"></filters>
+  <regions>
+<!-- Blue Base -->
+    <apply enter="only-blue" message="You may not enter the enemy team's base!">
+      <cuboid min="120,14,66" max="106,42,50"/>
+    </apply>
+<!-- Red Base -->
+    <apply enter="only-red" message="You may not enter the enemy team's base!">
+      <cuboid min="104,14,-67" max="118,42,-51"/>
+    </apply>
+<!-- Playing Area -->
+    <apply block="blocks" message="You may not modify the playing area!">
+       <cuboid min="-oo,oo,-oo" max="oo,oo,oo">
+    </apply>
+<!-- Blue Base Poison Pools -->
+    <rectangle name="blue-poison" min="120,28,62" max="107,28,55"/>
+<!-- Blue Junction Pools -->
+    <rectangle name="blue-junction" min="117,28,43" max="123,28,35"/>
+<!-- Left Pools Blue -->
+    <rectangle name="blue-left" min="91,28,27" max="106,28,42"/>
+<!-- Right Pools Blue -->
+    <rectangle name="blue-right" min="123,28,31" max="138,28,38"/>
+<!-- Center Pool Blue -->
+    <rectangle name="blue-center" min="98,26,21" max="128,26,12"/>
+<!-- Lower Pools -->
+    <rectangle name="lower-pools" min="83,16,-10" max="142,16,10"/>
+<!-- Red Base Poison Pools -->
+    <rectangle name="red-poison" min="105,28,-56" max="118,28,-62"/>
+<!-- Red Junction Pools -->
+    <rectangle name="red-junction" min="108,28,-43" max="102,28,-35"/>
+<!-- Left Pools Red -->
+    <rectangle name="red-left" min="119,28,-42" max="134,28,-27"/>
+<!-- Right Pools Red -->
+    <rectangle name="red-right" min="102,28,-31" max="87,28,-38"/>
+<!-- Center Pool Red -->
+    <rectangle name="red-center" min="127,26,-21" max="97,26,-12"/>
+    <apply kit="poison">
+      <region name="blue-poison"/>
+      <region name="blue-junction"/>
+      <region name="blue-left"/>
+      <region name="blue-right"/>
+      <region name="blue-center"/>
+      <region name="lower-pools"/>
+      <region name="red-poison"/>
+      <region name="red-junction"/>
+      <region name="red-left"/>
+      <region name="red-right"/>
+      <region name="red-center"/>
+    </apply>
+  </regions>
 </map>
