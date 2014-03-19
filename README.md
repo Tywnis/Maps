@@ -5,7 +5,12 @@ Maps made by minimitch0199 for the Overcast Network.
 
 **Current Maps**
 
-```
 [Blitz] Dead Water (aka Deadwater Docks)
+```
+https://oc.tc/forums/topics/52d20c9512ca953cee01d7aa
+```
+
 [Blitz] DeadWater - Pirates Grotto
+```
+https://oc.tc/forums/topics/531ed64012ca95cdb00014ab
 ```
