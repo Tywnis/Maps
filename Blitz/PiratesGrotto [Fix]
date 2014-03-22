@@ -19,7 +19,7 @@
       <item slot="0">iron sword</item>
       <item slot="1">bow</item>
       <item slot="2" amount="8">arrow</item>
-      <item slot="6" name="Spoiled Milk">milk</item>
+      <item slot="6" name="Spoiled Milk">milk bucket</item>
       <item slot="7" amount="32">bread</item>
       <item slot="8">golden apple</item>
       <chestplate enchantment="protection environmental">iron chestplate</chestplate>
@@ -112,6 +112,7 @@
     <item>golden apple</item>
     <item>glass bottle</item>
     <item>bucket</item>
+    <item>milk bucket</item>
   </itemremove>
   <killreward>
     <item amount="3">arrow</item>
