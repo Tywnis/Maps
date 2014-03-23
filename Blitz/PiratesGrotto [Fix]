@@ -36,9 +36,11 @@
     </kit>
     <kit name="give-poison" force="true">
       <potion duration="oo" amplifier="1">wither</potion>
+      <potion duration="oo" amplifier="1">blindness</potion>
     </kit>
     <kit name="take-poison" force="true">
       <potion duration="0" amplifier="0">wither</potion>
+      <potion duration="0" amplifier="0">blindness</potion>
     </kit>
   </kits>
   <spawns>
