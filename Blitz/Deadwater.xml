@@ -45,13 +45,17 @@
       <leggings color="0066cc">leather leggings</leggings>
       <boots color="0066cc">leather boots</boots>
     </kit>
-    <kit name="poison">
-      <potion duration="3" amplifier="2">poison</potion>
+    <kit name="give-effects" force="true">
+      <potion duration="oo" amplifier="3">wither</potion>
+    </kit>
+    <kit name="take-effects" force="true">
+      <potion duration="0" amplifier="0">wither</potion>
     </kit>
   </kits>
   <timelock>on</timelock>
   <killreward>
     <item amount="8">arrow</item>
+    <item>golden apple</item>
   </killreward>
   <tnt>
     <instantignite>on</instantignite>
@@ -78,8 +82,13 @@
     <apply enter="deny-all" message="`7Don't climb above the map boundry!">
       <region name="above-64"/>
     </apply>
-    <apply kit="poison">
+    <apply kit="give-effects">
       <region name="below-60"/>
+    </apply>
+    <apply kit="take-effects">
+      <negative>
+        <region name="below-60"/>
+      </negative>
     </apply>
   </regions>
   <include src="blitz-global.xml"/>
