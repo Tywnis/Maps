@@ -16,6 +16,17 @@
   <team color="dark red" max="12" max-overfill="15">Red Team</team>
   <team color="blue" max="12" max-overfill="15">Blue Team</team>
 </teams>
+<spawns>
+  <spawn team="red" kit="red" yaw="180">
+      <cuboid min="103,6,51" max="106,6,48"/>
+  </spawn>
+  <spawn team="blue" kit="blue" yaw="0">
+      <cuboid min="107,6,-57" max="104,6,-54"/>
+  </spawn>
+  <default yaw="-45">
+      <cuboid min="60,46,-0" max="59,46,0"/>
+  </default>
+</spawns>
 <kits>
   <kit name="spawn" force="true">
       <item slot="0">stone sword</item>
