@@ -2,7 +2,7 @@
   <include src="blitz-global.xml"/>
   <name>Deadwater: Pirate's Grotto</name>
   <version>1.0.5</version>
-  <objective>Eliminate the other team with in 5 minutes.</objective>
+  <objective>Eliminate the other team with in 10 minutes.</objective>
   <authors>
     <author>minimitch0199</author>
   </authors>
@@ -50,8 +50,8 @@
     <spawn team="red" kit="red" yaw="0">
       <point>112.5,29,-62.5</point>
     </spawn>
-    <default yaw="0">
-      <point>0.5,65,0.5</point>
+    <default yaw="-35">
+      <point>60.5,49,0.5</point>
     </default>
   </spawns>
   <filters>
