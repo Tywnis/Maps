@@ -28,6 +28,14 @@
     <chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
   </kit>
 </kits>
+<spawns>
+  <spawn team="orange" kit="orange" safe="true" yaw="180">
+    <cuboid min="126,41,-156" max="127,41,-155"/>
+  </spawn>
+  <spawn team="purple" kit="purple" safe="true" yaw="0">
+    <cuboid min="67,41,109" max="68,41,110"/>
+  </spawn>
+</spawns>
 <toolrepair>
   <tool>wood sword</tool>
   <tool>stone sword</tool>
