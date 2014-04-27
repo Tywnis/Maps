@@ -70,19 +70,19 @@
   <cuboid name="purple-front-monument" min="74,31,60" max="82,oo,52"/>
   <cuboid name="orange-back-monument" min="64,29,-127" max="56,oo,-119"/>
   <cuboid name="orange-front-monument" min="120,31,-106" max="112,oo,-98"/>
-  <apply block="no-tnt" message="you may only place TNT around the monuments!">
+  <apply block="no-tnt" message="You may only place TNT around the monuments!">
     <complement><cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/><region name="purple-back-monument"/></complement>
   </apply>
-    <apply block="no-tnt" message="you may only place TNT around the monuments!">
+    <apply block="no-tnt" message="You may only place TNT around the monuments!">
     <complement><cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/><region name="purple-front-monument"/></complement>
   </apply>
-    <apply block="no-tnt" message="you may only place TNT around the monuments!">
+    <apply block="no-tnt" message="You may only place TNT around the monuments!">
     <complement><cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/><region name="orange-back-monument"/></complement>
   </apply>
-    <apply block="no-tnt" message="you may only place TNT around the monuments!">
+    <apply block="no-tnt" message="You may only place TNT around the monuments!">
     <complement><cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/><region name="orange-front-monument"/></complement>
   </apply>
-  <apply block="deny-all" message="you may not edit the map!">
+  <apply block="deny-all" message="You may not edit the map!">
     <cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/>
   </apply>
 </regions>
