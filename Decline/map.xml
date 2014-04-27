@@ -20,12 +20,12 @@
         <potion duration="5" amplifier="1">heal</potion>
     </kit>
     <kit name="orange" parents="spawn">
-        <helmet color="d87f33" name="§3Helmet §7[Tier 0]>leather helmet</helmet>
-		<chestplate color="d87f33" name="§3Chestplate §7[Tier 0]>leather chestplate</chestplate>
+        <helmet color="d87f33" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
+		<chestplate color="d87f33" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
     </kit>
     <kit name="purple" parents="spawn">
-        <helmet color="7f3fb2" name="§3Helmet §7[Tier 0]>leather helmet</helmet>
-		<chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]>leather chestplate</chestplate>
+        <helmet color="7f3fb2" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
+		<chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
     </kit>
 </kits>
 <toolrepair>
