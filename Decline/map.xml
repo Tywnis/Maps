@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<map proto="1.3.2">
+<name>Decline</name>
+<version>1.0.0</version>
+<objective>Destory the other team's 2 Orb monuments to win!</objective>
+<authors>
+    <author>minimitch0199</author>
+</authors>
+<contributors>
+    <contributor contribution="Helping out with buildings">ParaSpider</contributor>
+</contributors>
+<teams>
+   <team color="orange" max="35" max-overfill="50">Orange Team</team>
+   <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
+</teams>
+<kits>
+    <kit name="spawn" force="false">
+        <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:2">wood sword</item>
+        <item slot="8" amount="1" name="§3Shard of Twilight">nether quartz</item>
+        <potion duration="5" amplifier="1">heal</potion>
+    </kit>
+    <kit name="orange" parents="spawn">
+        <helmet color="d87f33" name="§3Helmet §7[Tier 0]>leather helmet</helmet>
+		<chestplate color="d87f33" name="§3Chestplate §7[Tier 0]>leather chestplate</chestplate>
+    </kit>
+    <kit name="purple" parents="spawn">
+        <helmet color="7f3fb2" name="§3Helmet §7[Tier 0]>leather helmet</helmet>
+		<chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]>leather chestplate</chestplate>
+    </kit>
+</kits>
+<toolrepair>
+     <tool>wood sword</tool>
+	 <tool>stone sword</tool>
+     <tool>iron sword</tool>
+	 <tool>diamond sword</tool>
+	 <tool>leather helmet</tool>
+	 <tool>leather chestplate</tool>
+	 <tool>leather leggings</tool>
+	 <tool>chain chestplate</tool>
+	 <tool>chain leggings</tool>
+	 <tool>iron chestplate</tool>
+	 <tool>iron leggings</tool>
+     <tool>bow</tool>
+</toolrepair>
+<itemremove>
+     <item>wood sword</item>
+	 <item>stone sword</item>
+     <item>iron sword</item>
+	 <item>diamond sword</item>
+	 <item>leather helmet</item>
+	 <item>leather chestplate</item>
+	 <item>leather leggings</item>
+	 <item>chain chestplate</item>
+	 <item>chain leggings</item>
+	 <item>iron chestplate</item>
+	 <item>iron leggings</item>
+	 <item>arrow</item>
+	 <item>tnt</item>
+	 <item>blaze rod</item>
+	 <item>stone pickaxe</item>
+	 <item>glass bottle</item>
+	 <item>potion</item>
+</itemremove>
+<itemkeep>
+    <item>diamond chestplate</item>
+    <item>gold sword</item>
+    <item>bow</item>
+</itemkeep>
+<modifybowprojectile>
+    <projectile>Fireball</projectile>
+    <velocityMod>2.5</velocityMod>
+</modifybowprojectile>
+<tnt>
+    <instantignite>on</instantignite>
+    <blockdamage>on</blockdamage>
+    <yield>0</yield>
+</tnt>
+<killreward>
+    <item amount="2" name="§Shard of Twilight">nether quartz</item>
+</killreward>
+<gamerules>
+    <doDaylightCycle>false</doDaylightCycle>
+</gamerules>
+<hunger>
+    <depletion>off</depletion>
+</hunger>
+<multitrade/>
+<!-- Need Regions, Mouments, Spawns, Filters for Spawners and Proximity Alarms --!>
+<!-- Add yourself to the contributors if you can do this :D --!>
+
+</map>
