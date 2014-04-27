@@ -54,6 +54,11 @@
     </destroyable>
   </destroyables>
 </destroyables>
+<mobs>
+    <filter>
+        <spawn>spawner</spawn>
+    </filter>
+</mobs>
 <toolrepair>
   <tool>wood sword</tool>
   <tool>stone sword</tool>
