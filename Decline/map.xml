@@ -83,7 +83,7 @@
     <complement><cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/><region name="orange-front-monument"/></complement>
   </apply>
   <apply block="deny-all" message="you may not edit the map!">
-    <cuboid min="oo,oo,oo" max="-oo,-oo,-oo">
+    <cuboid min="oo,oo,oo" max="-oo,-oo,-oo"/>
   </apply>
 </regions>
 <proximity-alarms>
