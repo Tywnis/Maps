@@ -85,6 +85,40 @@
     <cuboid min="oo,oo,oo" max="-oo,-oo,-oo">
   </apply>
 </regions>
+<proximity-alarms>
+  <proximity-alarm message="Enemy Detected at Back Monument" flare-radius="4">
+    <region>
+      <cuboid name="purple-back-monument"/>
+    </region>
+    <detect>
+      <team>orange</team>
+    </detect>
+  </proximity-alarm>
+    <proximity-alarm message="Enemy Detected at Front Monument" flare-radius="4">
+    <region>
+      <cuboid name="purple-front-monument"/>
+    </region>
+    <detect>
+      <team>orange</team>
+    </detect>
+  </proximity-alarm>
+    <proximity-alarm message="Enemy Detected at Back Monument" flare-radius="4">
+    <region>
+      <cuboid name="orange-back-monument"/>
+    </region>
+    <detect>
+      <team>purple</team>
+    </detect>
+  </proximity-alarm>
+    <proximity-alarm message="Enemy Detected at Front Monument" flare-radius="4">
+    <region>
+      <cuboid name="orange-Front-monument"/>
+    </region>
+    <detect>
+      <team>purple</team>
+    </detect>
+  </proximity-alarm>
+</proximity-alarms>
 <toolrepair>
   <tool>wood sword</tool>
   <tool>stone sword</tool>
