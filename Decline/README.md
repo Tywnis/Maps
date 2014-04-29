@@ -6,7 +6,13 @@ Change Log for Decline
 Official Public Release
 ```
 
-**Version 1.0.1**
+**Version 1.0.1** [Private]
 ```
 Minor changes to the world settings
 ```
+
+**Version 1.0.1b** [Private]
+```
+Moved villagers into spawn tower
+```
+
