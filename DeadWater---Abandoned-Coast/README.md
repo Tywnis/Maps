@@ -11,3 +11,8 @@ Official Public Release
 Changed name from DeadWater III to DeadWater - Abandoned Coast
 Fixed XML errors
 ```
+
+**Version 1.0.1b**
+```
+Added TDM support
+```
