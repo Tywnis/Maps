@@ -2,25 +2,35 @@ Maps
 ====
 
 Maps made by minimitch0199 for the Overcast Network.
+Map changes can be viewed by visiting the respective map sub-folders.
 
-**Current Maps**
+**Current Maps and Thier Status**
+```
+[Dev] Map is in development
+[Fin] Map is finished
+[Brk] Map is finished but needs to be fixed
+[Rep] Map is in the official OCN repostory
+[Rot] Map is in the official OCN rotations
+[Abn] Map has been abandoned
+Other tags state the maps gamemode(s)
+```
 
-[Blitz] Dead Water (aka Deadwater Docks)
+[Rep] [Blitz] Dead Water (aka Deadwater Docks)
 ```
 https://oc.tc/forums/topics/52d20c9512ca953cee01d7aa
 ```
 
-[Blitz] DeadWater - Pirates Grotto
+[Rot] [Blitz] DeadWater - Pirates Grotto
 ```
 https://oc.tc/forums/topics/531ed64012ca95cdb00014ab
 ```
 
-[Blitz/UHC/TDM] DeadWater - Abandoned Coast
+[Fin] [Blitz/UHC/TDM] DeadWater - Abandoned Coast
 ```
 https://oc.tc/forums/topics/534391c412ca957ac8007653
 ```
 
-[DTM/Gear] Decline
+[Brk] [DTM/Gear] Decline
 ```
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
 ```
