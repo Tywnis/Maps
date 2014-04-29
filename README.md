@@ -1,10 +1,11 @@
-Maps
+**Maps**
 ====
 
 Maps made by minimitch0199 for the Overcast Network.
 Map changes can be viewed by visiting the respective map sub-folders.
 
-**Current Maps and Thier Status**
+Current Maps and Thier Status
+---
 ```
 [Dev] Map is in development
 [Fin] Map is finished
