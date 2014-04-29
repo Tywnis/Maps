@@ -4,6 +4,10 @@
 Maps made by minimitch0199 for the Overcast Network.
 Map changes can be viewed by visiting the respective map sub-folders.
 
+Map Issues
+---
+Make an Issue in the Issues tab with the appropriate tag(s)
+
 Current Maps and Thier Status
 ---
 ```
