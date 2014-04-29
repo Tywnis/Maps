@@ -8,7 +8,7 @@ Map changes can be viewed by visiting the respective map sub-folders.
 ```
 [Dev] Map is in development
 [Fin] Map is finished
-[Brk] Map is finished but needs to be fixed
+[Fix] Map is finished but needs to be fixed
 [Rep] Map is in the official OCN repostory
 [Rot] Map is in the official OCN rotations
 [Abn] Map has been abandoned
@@ -30,7 +30,7 @@ https://oc.tc/forums/topics/531ed64012ca95cdb00014ab
 https://oc.tc/forums/topics/534391c412ca957ac8007653
 ```
 
-[Brk] [DTM/Gear] Decline
+[Fix] [DTM/Gear] Decline
 ```
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
 ```
