@@ -10,15 +10,13 @@ Make an Issue in the Issues tab with the appropriate tag(s)
 
 Current Maps and Thier Status
 ---
-```
-[Dev] Map is in development
-[Fin] Map is finished
-[Fix] Map is finished but needs to be fixed
-[Rep] Map is in the official OCN repostory
-[Rot] Map is in the official OCN rotations
-[Abn] Map has been abandoned
+`[Dev]` Map is in development
+`[Fin]` Map is finished
+`[Fix]` Map is finished but needs to be fixed
+`[Rep]` Map is in the official OCN repostory
+`[Rot]` Map is in the official OCN rotations
+`[Abn]` Map has been abandoned
 Other tags state the maps gamemode(s)
-```
 
 [Rep] [Blitz] Dead Water (aka Deadwater Docks) `Current Version: 2.1.0`
 ```
