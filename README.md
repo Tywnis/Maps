@@ -20,7 +20,7 @@ Other tags state the maps gamemode(s)
 https://oc.tc/forums/topics/52d20c9512ca953cee01d7aa
 ```
 
-[Rot] [Blitz] DeadWater - Pirates Grotto
+**[Rot] [Blitz] DeadWater - Pirates Grotto**
 ```
 https://oc.tc/forums/topics/531ed64012ca95cdb00014ab
 ```
