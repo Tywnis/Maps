@@ -1,4 +1,4 @@
-*Change Log for Decline*
+= Change Log for Decline
 
 Version 1.0.0
 ```
