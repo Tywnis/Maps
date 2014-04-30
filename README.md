@@ -58,7 +58,7 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 
 `Current Version: 1.0.1-pr.3a`
 
-`Current Release: 1.0.1-pr.2a`
+`Current Release: 1.0.1-pr.3a`
 
 ```
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
