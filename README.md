@@ -56,7 +56,7 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 
 [Fix] [DTM/Gear] Decline 
 
-`Current Version: 1.0.1-pr.3a`
+`Current Version: 1.2.0`
 
 `Current Release: 1.0.1-pr.3a`
 
