@@ -55,14 +55,13 @@
     <!-- TNT damages enemies and self, but not teammates -->
     <damage ally="true" self="false" enemy="false" other="false">block explosion</damage>
 </disabledamage>
-
 <tnt>
   <instantignite>on</instantignite>
   <blockdamage>on</blockdamage>
   <yield>0</yield>
 </tnt>
 <killreward>
-  <item amount="2" name="§Shard of Twilight">nether quartz</item>
+  <item amount="2" name="§3Shard of Twilight">nether quartz</item>
 </killreward>
 <gamerules>
   <doDaylightCycle>false</doDaylightCycle>
