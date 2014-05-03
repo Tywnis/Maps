@@ -94,8 +94,10 @@
       </any>
     </deny>
   </filter>
-  <filter name="allow-tnt">
+  <filter name="allow-tnt" parents="deny-blocks">
+    <allow>
       <block>tnt</block>
+    </allow>
   </filter>
   <filter name="only-orange" parents="deny-players">
     <allow>
@@ -107,7 +109,12 @@
       <team>purple</team>
     </allow>
   </filter>
-  <filter name="playable-deny-blocks" parents="deny-blocks"/>
+  <filter name="deny-blocks" parents="deny-blocks"/>
+  <filter name="breakables" parents="deny-blocks">
+    <allow>
+      <block>diamond ore</block>
+    </allow>
+  </filter>
 </filters>
 <regions>
   <apply name="monuments" block-place="allow-tnt">
@@ -130,9 +137,13 @@
   <apply name="purple-tower" enter="only-purple" message="You can't enter the other team's Spawn Tower!">
     <cuboid min="18,29,268" max="29,41,279"/>
   </apply>
-  <!-- Deny block events; but still allow TNT around the monuments -->
-  <apply name="playable-region" block="playable-deny-blocks" message="You can't modify the map, and you can only place TNT around the monuments!">
+  <!-- Deny block events -->
+  <apply name="playable-region" block="deny-blocks" message="You can't modify the map!">
     <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
+  </apply>
+  <!-- Allow Diamond Ore to be broken -->
+  <apply name="apply-breakables" block-break="breakables">
+    <cuboid min="-oo,oo,-oo" max="oo,oo,oo"
   </apply>
 </regions>
 <proximity-alarms>
@@ -186,6 +197,10 @@
   <portal x="@83" y="@44" z="@5" yaw="@180">
     <cuboid min="25,36,116" max="25,38,116"/>
   </portal>
+  <!-- Orange Unbreakable Portal -->
+  <portal x="@83" y="@44" z="@5" yaw="180">
+    <cuboid min="" max=""/>
+  </portal>
   <!-- Purple Back Portal -->
   <portal x="@23" y="@43" z="@269" yaw="@0">
     <cuboid min="12,36,225" max="12,38,225"/>
@@ -197,6 +212,10 @@
   <!-- Purple Front Portal -->
   <portal x="@23" y="@43" z="@269" yaw="@0">
     <cuboid min="81,36,158" max="81,38,158"/>
+  </portal>
+  <!-- Purple Unbreakable Portal -->
+  <portal x="@23" y="@43" z="@269" yaw="@0">
+    <cuboid min="" max=""/>
   </portal>
 </portals>
 <toolrepair>
@@ -231,6 +250,7 @@
   <item>stone pickaxe</item>
   <item>glass bottle</item>
   <item>potion</item>
+  <item>diamond</item>
 </itemremove>
 <itemkeep>
   <item>diamond chestplate</item>
