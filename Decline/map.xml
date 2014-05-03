@@ -69,7 +69,22 @@
     </destroyable>
   </destoryables>
 </destroyables>
-
+<blockdrops>
+  <rule>
+    <region>
+      <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
+    </region>
+    <filter>
+      <block>glass</block>
+    </filter>
+    <drops>
+      <item amount="1" name="§3Shard of Twilight">nether quartz</item>
+    </drops>
+    <experience>0</experience>
+    <replacement>air</replacement>
+    <wrongtool>true</wrongtool>
+  </rule>
+</blockdrops>
 <filters>
   <filter name="deny-water">
     <deny>
