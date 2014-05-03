@@ -19,6 +19,9 @@
     <potion duration="oo" amplifier="4">NIGHT_VISION</potion>
   </kit>
   <kit name="spawn-effects" force="false">
+    <potion duration="10" amplifier="10">REGENERATION</potion>
+    <potion duration="10" amplifier="10">DAMAGE_RESISTANCE</potion>
+    <potion duration="oo" amplifier="2">SPEED</potion>
   </kit>
   <kit name="spawn" parents="spawn-effects">
     <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:2">wood sword</item>
