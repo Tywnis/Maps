@@ -97,31 +97,42 @@
   <filter name="allow-tnt">
       <block>tnt</block>
   </filter>
-  <filter name="only-orange" parents="deny-all">
-    <deny>
-      <team>purple</team>
-    </deny>
-  </filter>
-  <filters name="only-purple" parents="deny-all">
-    <deny>
+  <filter name="only-orange" parents="deny-players">
+    <allow>
       <team>orange</team>
-    </deny>
-  </filters>
+    </allow>
+  </filter>
+  <filter name="only-purple" parents="deny-players">
+    <allow>
+      <team>purple</team>
+    </allow>
+  </filter>
+  <filter name="playable-deny-blocks" parents="deny-blocks"/>
 </filters>
 <regions>
   <apply name="monuments" block-place="allow-tnt">
-    <negative>
-      <union>
-        <!-- Orange Front Monument -->
-        <cuboid min="75,32,61" max="69,40,55"/>
-        <!-- Orange Back Monument -->
-        <cuboid min="19,29,40" max="13,37,34"/>
-        <!-- Purple Front Monument -->
-        <cuboid min="31,32,213" max="37,40,219"/>
-        <!-- Purple Back Monument -->
-        <cuboid min="87,29,234" max="93,37,240"/>
-      </union>
-    </negative>
+    <union>
+      <!-- Orange Front Monument -->
+      <cuboid min="75,32,61" max="69,40,55"/>
+      <!-- Orange Back Monument -->
+      <cuboid min="19,29,40" max="13,37,34"/>
+      <!-- Purple Front Monument -->
+      <cuboid min="31,32,213" max="37,40,219"/>
+      <!-- Purple Back Monument -->
+      <cuboid min="87,29,234" max="93,37,240"/>
+    </union>
+  </apply>
+  <!-- Deny purple entering orange team's spawn tower -->
+  <apply name="orange-tower" enter="only-orange" message="You can't enter the other team's Spawn Tower!">
+    <cuboid min="88,29,6" max="77,41,-5"/>
+  </apply>
+  <!-- Deny orange entering purple team's spawn tower -->
+  <apply name="purple-tower" enter="only-purple" message="You can't enter the other team's Spawn Tower!">
+    <cuboid min="18,29,268" max="29,41,279"/>
+  </apply>
+  <!-- Deny block events; but still allow TNT around the monuments -->
+  <apply name="playable-region" block="playable-deny-blocks" message="You can't modify the map, and you can only place TNT around the monuments!">
+    <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
   </apply>
 </regions>
 <mobs>
