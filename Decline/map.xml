@@ -40,7 +40,17 @@
     <chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
   </kit>
 </kits>
-
+<spawns>
+  <default kit="default" yaw="135">
+    <cuboid min="16,59,12" max="16,59,12"/>
+  </default>
+  <spawn team="orange" kit="orange" yaw="180">
+    <cuboid min="81,43,4" max="84,43,5"/>
+  </spawn>
+  <spawn team="purple" kit="purple" yaw="0">
+    <cuboid min="22,43,269" max="25,43,270"/>
+  </spawn>
+</spawns>
 
 
 <filters>
