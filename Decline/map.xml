@@ -15,7 +15,7 @@
   <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
 </teams>
 <kits>
-  <kit name="obs-effects" force="false">
+  <kit name="default" force="false">
     <potion duration="oo" amplifier="4">NIGHT_VISION</potion>
   </kit>
   <kit name="spawn-effects" force="false">
