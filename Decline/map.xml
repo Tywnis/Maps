@@ -173,6 +173,43 @@
     </detect>
   </proximity-alarm>
 </proximity-alarms>
+<toolrepair>
+  <tool>wood sword</tool>
+  <tool>stone sword</tool>
+  <tool>iron sword</tool>
+  <tool>diamond sword</tool>
+  <tool>leather helmet</tool>
+  <tool>leather chestplate</tool>
+  <tool>leather leggings</tool>
+  <tool>chainmail chestplate</tool>
+  <tool>chainmail leggings</tool>
+  <tool>iron chestplate</tool>
+  <tool>iron leggings</tool>
+  <tool>bow</tool>
+</toolrepair>
+<itemremove>
+  <item>wood sword</item>
+  <item>stone sword</item>
+  <item>iron sword</item>
+  <item>diamond sword</item>
+  <item>leather helmet</item>
+  <item>leather chestplate</item>
+  <item>leather leggings</item>
+  <item>chain chestplate</item>
+  <item>chain leggings</item>
+  <item>iron chestplate</item>
+  <item>iron leggings</item>
+  <item>arrow</item>
+  <item>tnt</item>
+  <item>blaze rod</item>
+  <item>stone pickaxe</item>
+  <item>glass bottle</item>
+  <item>potion</item>
+</itemremove>
+<itemkeep>
+  <item>diamond chestplate</item>
+  <item>gold sword</item>
+  <item>bow</item>
 <mobs>
   <filter>
     <spawn>spawner</spawn>
