@@ -10,6 +10,9 @@
   <contributor contribution="Helping out with buildings">ParaSpider</contributor>
   <contributor contribution="XML Help">Captain_Elliott</contributor>
 </contributors>
+<rules>
+  <rule>Fall damage is disabled!</rule>
+</rules>
 <teams>
   <team color="orange" max="35" max-overfill="50">Orange Team</team>
   <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
@@ -37,3 +40,14 @@
     <chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
   </kit>
 </kits>
+
+
+
+
+
+<disabledamage>
+    <!-- Disable fall damage -->
+    <damage>fall</damage>
+    <!-- TNT damages enemies and self, but not teammates -->
+    <damage ally="true" self="false" enemy="false" other="false">block explosion</damage>
+</disabledamage>
