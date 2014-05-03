@@ -135,6 +135,44 @@
     <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
   </apply>
 </regions>
+<proximity-alarms>
+  <!-- Orange Front Monument Proximity -->
+  <proximity-alarm message="Enemy detected at Front Monument!" flare-radius="4">
+    <region>
+      <cuboid min="75,32,61" max="69,40,55"/>
+    </region>
+    <detect>
+      <team>purple</team>
+    </detect>
+  </proximity-alarm>
+  <!-- Orange Back Monument Proximity -->
+  <proximity-alarm message="Enemy detected at Back Monument!" flare-radius="4">
+    <region>
+      <cuboid min="19,29,40" max="13,37,34"/>
+    </region>
+    <detect>
+      <team>purple</team>
+    </detect>
+  </proximity-alarm>
+  <!-- Purple Front Monument Proximity -->
+  <proximity-alarm message="Enemy detected at Front Monument!" flare-radius="4">
+    <region>
+      <cuboid min="31,32,213" max="37,40,219"/>
+    </region>
+    <detect>
+      <team>orange</team>
+    </detect>
+  </proximity-alarm>
+  <!-- Purple Back Monument Proximity -->
+  <proximity-alarm message="Enemy detected at Back Monument!" flare-radius="4">
+    <region>
+      <cuboid min="87,29,234" max="93,37,240"/>
+    </region>
+    <detect>
+      <team>orange</team>
+    </detect>
+  </proximity-alarm>
+</proximity-alarms>
 <mobs>
   <filter>
     <spawn>spawner</spawn>
