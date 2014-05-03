@@ -143,7 +143,7 @@
   </apply>
   <!-- Allow Diamond Ore to be broken -->
   <apply name="apply-breakables" block-break="breakables">
-    <cuboid min="-oo,oo,-oo" max="oo,oo,oo"
+    <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
   </apply>
 </regions>
 <proximity-alarms>
