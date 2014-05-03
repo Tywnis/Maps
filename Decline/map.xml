@@ -110,6 +110,11 @@
     </deny>
   </filters>
 </filters>
+<mobs>
+  <filter>
+    <spawn>spawner</spawn>
+  </filter>
+</mobs>
 <modifybowprojectile>
   <projectile>FireBall</projectile>
   <velocityMod>2.5</velocityMod>
