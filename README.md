@@ -24,6 +24,9 @@ Current Maps and Thier Status
 
 Other tags state the maps gamemode(s)
 
+Maps
+---
+
 [Rep] [Blitz] Dead Water (aka Deadwater Docks)
 
 `Current Version: 2.1.0` 
