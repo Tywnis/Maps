@@ -51,7 +51,24 @@
     <cuboid min="22,43,269" max="25,43,270"/>
   </spawn>
 </spawns>
-
+<destroyables materials="ice;glass;lapis block;emerald block" completion="100%">
+  <destroyables owner="orange">
+    <destroyable name="Front Monument">
+      <cuboid min="75,32,61" max="69,40,55"/>
+    </destroyable>
+    <destroyable name="Back Monument">
+      <cuboid min="19,29,40" max="13,37,34"/>
+    </destroyable>
+  </destroyables>
+  <destoryables owner="purple">
+    <destroyable name="Front Monument">
+      <cuboid min="31,32,213" max="37,40,219"/>
+    </destroyable>
+    <destroyable name="Back Monument">
+      <cuboid min="87,29,234" max="93,37,240"/>
+    </destroyable>
+  </destoryables>
+</destroyables>
 
 <filters>
   <filter name="deny-water">
