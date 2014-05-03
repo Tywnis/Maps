@@ -15,6 +15,7 @@
   <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
 </teams>
 <kits>
+  <!-- Only given to Observers -->
   <kit name="default" force="false">
     <potion duration="oo" amplifier="4">NIGHT_VISION</potion>
   </kit>
@@ -24,7 +25,7 @@
     <potion duration="oo" amplifier="2">SPEED</potion>
   </kit>
   <kit name="spawn" parents="spawn-effects">
-    <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:2">wood sword</item>
+    <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:add:2">wood sword</item>
     <item slot="8" amount="1" name="§3Shard of Twilight">nether quartz</item>
   </kit>
   <kit name="orange" parents="spawn">
