@@ -44,7 +44,11 @@
 
 
 
-
+<modifybowprojectile>
+  <projectile>FireBall</projectile>
+  <velocityMod>2.5</velocityMod>
+  <potion duration="6" amplifier="1">BLINDNESS</potion>
+</modifybowprojectile>
 <disabledamage>
     <!-- Disable fall damage -->
     <damage>fall</damage>
