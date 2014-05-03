@@ -94,10 +94,8 @@
       </any>
     </deny>
   </filter>
-  <filter name="deny-tnt">
-    <not>
+  <filter name="allow-tnt">
       <block>tnt</block>
-    </not>
   </filter>
   <filter name="only-orange" parents="deny-all">
     <deny>
@@ -110,6 +108,22 @@
     </deny>
   </filters>
 </filters>
+<regions>
+  <apply name="monuments" block-place="allow-tnt">
+    <negative>
+      <union>
+        <!-- Orange Front Monument -->
+        <cuboid min="75,32,61" max="69,40,55"/>
+        <!-- Orange Back Monument -->
+        <cuboid min="19,29,40" max="13,37,34"/>
+        <!-- Purple Front Monument -->
+        <cuboid min="31,32,213" max="37,40,219"/>
+        <!-- Purple Back Monument -->
+        <cuboid min="87,29,234" max="93,37,240"/>
+      </union>
+    </negative>
+  </apply>
+</regions>
 <mobs>
   <filter>
     <spawn>spawner</spawn>
