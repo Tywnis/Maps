@@ -8,8 +8,10 @@ Map Issues
 ---
 Make an Issue in the Issues tab with the appropriate tag(s)
 
-Current Maps and Thier Status
+Map Tags
 ---
+These map tags state in what stage the map is in or what type of gamemode it is. Below is a guide of what the tags I've used.
+
 `[Dev]` Map is in development
 
 `[Fin]` Map is finished
