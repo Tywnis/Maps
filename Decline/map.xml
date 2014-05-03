@@ -43,7 +43,31 @@
 
 
 
-
+<filters>
+  <filter name="deny-water">
+    <deny>
+      <any>
+        <block>water</block>
+        <block>stationary water</block>
+      </any>
+    </deny>
+  </filter>
+  <filter name="deny-tnt">
+    <not>
+      <block>tnt</block>
+    </not>
+  </filter>
+  <filter name="only-orange" parents="deny-all">
+    <deny>
+      <team>purple</team>
+    </deny>
+  </filter>
+  <filters name="only-purple" parents="deny-all">
+    <deny>
+      <team>orange</team>
+    </deny>
+  </filters>
+</filters>
 <modifybowprojectile>
   <projectile>FireBall</projectile>
   <velocityMod>2.5</velocityMod>
