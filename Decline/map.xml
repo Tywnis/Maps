@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<map proto="1.3.2">
+<name>Decline</name>
+<version>1.3.0</version>
+<objective>Destory the other team's 2 Orb monuments to win!</objective>
+<authors>
+  <author>minimitch0199</author>
+</authors>
+<contributors>
+  <contributor contribution="Helping out with buildings">ParaSpider</contributor>
+  <contributor contribution="XML Help">Captain_Elliott</contributor>
+</contributors>
+<teams>
+  <team color="orange" max="35" max-overfill="50">Orange Team</team>
+  <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
+</teams>
+<kits>
+  <kit name="obs-effects" force="false">
+    <potion duration="oo" amplifier="4">NIGHT_VISION</potion>
+  </kit>
+  <kit name="spawn-effects" force="false">
+  </kit>
+  <kit name="spawn" parents="spawn-effects">
+    <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:2">wood sword</item>
+    <item slot="8" amount="1" name="§3Shard of Twilight">nether quartz</item>
+  </kit>
+  <kit name="orange" parents="spawn">
+    <helmet color="d87f33" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
+    <chestplate color="d87f33" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
+  </kit>
+  <kit name="purple" parents="spawn">
+    <helmet color="7f3fb2" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
+    <chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
+  </kit>
+</kits>
