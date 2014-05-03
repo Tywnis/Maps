@@ -199,7 +199,7 @@
   </portal>
   <!-- Orange Unbreakable Portal -->
   <portal x="@83" y="@44" z="@5" yaw="180">
-    <cuboid min="" max=""/>
+    <cuboid min="96,36,13" max="96,38,13"/>
   </portal>
   <!-- Purple Back Portal -->
   <portal x="@23" y="@43" z="@269" yaw="@0">
@@ -215,7 +215,7 @@
   </portal>
   <!-- Purple Unbreakable Portal -->
   <portal x="@23" y="@43" z="@269" yaw="@0">
-    <cuboid min="" max=""/>
+    <cuboid min="10,38,26" max="10,38,26"/>
   </portal>
 </portals>
 <toolrepair>
