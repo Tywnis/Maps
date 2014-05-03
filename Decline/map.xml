@@ -251,9 +251,22 @@
   <item>glass bottle</item>
   <item>potion</item>
   <item>diamond</item>
+  <item>redstone torch</item>
+  <item>spruce log</item>
+  <item>stone bricks</item>
+  <item>stone brick stairs</item>
+  <item>stone brick slab</item>
+  <item>ladder</item>
+  <item>spruce wood</item>
+  <item>spruce wood stairs</item>
+  <item>spruce wood slab</item>
+  <item>sign</item>
+  <item>jungle sapling</item>
+  <item>seeds</item>
 </itemremove>
 <itemkeep>
   <item>diamond chestplate</item>
+  <item>gold helmet</item>
   <item>gold sword</item>
   <item>bow</item>
 <mobs>
@@ -267,10 +280,10 @@
   <potion duration="6" amplifier="1">BLINDNESS</potion>
 </modifybowprojectile>
 <disabledamage>
-    <!-- Disable fall damage -->
-    <damage>fall</damage>
-    <!-- TNT damages enemies and self, but not teammates -->
-    <damage ally="true" self="false" enemy="false" other="false">block explosion</damage>
+  <!-- Disable fall damage -->
+  <damage>fall</damage>
+  <!-- TNT damages enemies and self, but not teammates -->
+  <damage ally="true" self="false" enemy="false" other="false">block explosion</damage>
 </disabledamage>
 <tnt>
   <instantignite>on</instantignite>
