@@ -1,0 +1,19 @@
+<tutorial>
+  <stage title="Decline">
+    <message>
+      <line>
+        `rThis map is a `a`lDTM/Gear `rmap.
+      </line>
+      <line>
+        The objective is to destroy the other team's two monuments.
+      </line>
+    </message>
+  </stage>
+  
+</tutorial>
+
+
+
+    <teleport>
+      <point yaw="90" pitch="50">44,60,0</point>
+    </teleport>
