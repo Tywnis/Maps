@@ -145,6 +145,22 @@
   <apply name="apply-breakables" block-break="breakables">
     <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
   </apply>
+  <apply name="orange-only-portals" enter="only-orange" message="You can't enter the other team's teleporters!">
+    <union>
+      <cuboid min="94,36,49" max="94,38,49"/>
+      <cuboid min="21,36,59" max="21,38,59"/>
+      <cuboid min="25,36,116" max="25,38,116"/>
+      <cuboid min="96,36,13" max="96,38,13"/>
+    </union>
+  </apply>
+  <apply name="purple-only-portals" enter="only-purple" message="You can't enter the other team's teleporters!">
+    <union>
+      <cuboid min="12,36,225" max="12,38,225"/>
+      <cuboid min="85,36,215" max="85,38,215"/>
+      <cuboid min="81,36,158" max="81,38,158"/>
+      <cuboid min="10,38,26" max="10,38,26"/>
+    </union>
+  </apply>
 </regions>
 <proximity-alarms>
   <!-- Orange Front Monument Proximity -->
