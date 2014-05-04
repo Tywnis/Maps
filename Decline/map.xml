@@ -28,16 +28,16 @@
     <potion duration="oo" amplifier="2">SPEED</potion>
   </kit>
   <kit name="spawn" parents="spawn-effects">
-    <item slot="0" name="§3Sword §7[Tier 0]" attributes="generic.attackDamage:add:2">wood sword</item>
-    <item slot="8" amount="1" name="§3Shard of Twilight">nether quartz</item>
+    <item slot="0" name="`3Sword `7[Tier 0]" attributes="generic.attackDamage:add:2">wood sword</item>
+    <item slot="8" amount="1" name="`3Shard of Twilight">nether quartz</item>
   </kit>
   <kit name="orange" parents="spawn">
-    <helmet color="d87f33" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
-    <chestplate color="d87f33" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
+    <helmet color="d87f33" name="`3Helmet `7[Tier 0]">leather helmet</helmet>
+    <chestplate color="d87f33" name="`3Chestplate `7[Tier 0]">leather chestplate</chestplate>
   </kit>
   <kit name="purple" parents="spawn">
-    <helmet color="7f3fb2" name="§3Helmet §7[Tier 0]">leather helmet</helmet>
-    <chestplate color="7f3fb2" name="§3Chestplate §7[Tier 0]">leather chestplate</chestplate>
+    <helmet color="7f3fb2" name="`3Helmet `7[Tier 0]">leather helmet</helmet>
+    <chestplate color="7f3fb2" name="`3Chestplate `7[Tier 0]">leather chestplate</chestplate>
   </kit>
 </kits>
 <spawns>
@@ -78,7 +78,7 @@
       <block>glass</block>
     </filter>
     <drops>
-      <item amount="1" name="§3Shard of Twilight">nether quartz</item>
+      <item amount="1" name="`3Shard of Twilight">nether quartz</item>
     </drops>
     <experience>0</experience>
     <replacement>air</replacement>
@@ -291,7 +291,7 @@
   <yield>0</yield>
 </tnt>
 <killreward>
-  <item amount="2" name="§3Shard of Twilight">nether quartz</item>
+  <item amount="2" name="`3Shard of Twilight">nether quartz</item>
 </killreward>
 <gamerules>
   <doDaylightCycle>false</doDaylightCycle>
