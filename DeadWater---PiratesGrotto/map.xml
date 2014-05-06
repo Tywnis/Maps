@@ -1,7 +1,7 @@
 <map proto="1.3.2">
   <include src="blitz-global.xml"/>
   <name>Deadwater: Pirate's Grotto</name>
-  <version>1.1.2</version>
+  <version>1.1.0</version>
   <objective>Eliminate the other team with in 10 minutes.</objective>
   <authors>
     <author>minimitch0199</author>
@@ -16,10 +16,11 @@
   </teams>
   <kits>
     <kit name="spawn">
-      <item slot="0" name="`3Pirate's Cutlass">iron sword</item>
+      <item slot="0">iron sword</item>
       <item slot="1">bow</item>
       <item slot="2" amount="8">arrow</item>
-      <item slot="7" name="Spoiled Milk">milk bucket</item>
+      <item slot="6" name="Spoiled Milk">milk bucket</item>
+      <item slot="7" amount="32">bread</item>
       <item slot="8">golden apple</item>
       <chestplate enchantment="protection environmental">iron chestplate</chestplate>
       <potion duration="5">damage resistance</potion>
@@ -35,11 +36,11 @@
     </kit>
     <kit name="give-poison" force="true">
       <potion duration="oo" amplifier="1">wither</potion>
-      <potion duration="oo" amplifier="1">weakness</potion>
+      <potion duration="oo" amplifier="1">blindness</potion>
     </kit>
     <kit name="take-poison" force="true">
       <potion duration="0" amplifier="0">wither</potion>
-      <potion duration="0" amplifier="0">weakness</potion>
+      <potion duration="0" amplifier="0">blindness</potion>
     </kit>
   </kits>
   <spawns>
@@ -101,9 +102,6 @@
       </negative>
     </apply>
   </regions>
-  <modifybowprojectile>
-    <potion duration="3" amplifier="1">blindness</potion>
-  </modifybowprojectile>
   <toolrepair>
     <tool>iron sword</tool>
     <tool>bow</tool>
@@ -112,7 +110,6 @@
     <item>iron chestplate</item>
     <item>leather leggings</item>
     <item>leather boots</item>
-    <item>bread</item>
     <item>golden apple</item>
     <item>glass bottle</item>
     <item>bucket</item>
