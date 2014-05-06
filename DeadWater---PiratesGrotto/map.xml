@@ -16,7 +16,7 @@
   </teams>
   <kits>
     <kit name="spawn">
-      <item slot="0">iron sword</item>
+      <item slot="0" name="`3Pirate's Cutlass">iron sword</item>
       <item slot="1">bow</item>
       <item slot="2" amount="8">arrow</item>
       <item slot="6" name="Spoiled Milk">milk bucket</item>
