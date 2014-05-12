@@ -163,6 +163,7 @@
   <item>jungle sapling</item>
   <item>seeds</item>
 </itemremove>
+<!-- Soul-bound Items -->
 <itemkeep>
   <item>diamond chestplate</item>
   <item>gold helmet</item>
