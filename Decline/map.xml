@@ -156,6 +156,29 @@
     </union>
   </region>
 <!-- Apply regions -->
+  <apply block-break="deny-world">
+    <negative>
+      <region name="orange-monuments"/>
+      <region name="purple-monuments"/>
+      <!-- Home teleport towers? -->
+    </negative>
+  </apply>
+  <apply block-place="allow-tnt">
+    <region name="orange-monuments"/>
+    <region name="purple-monuments"/>
+  </apply>
+  <apply enter="only-orange" message="You can't enter the other team's `lSpawn Tower`r!">
+    <region name="orange-tower"/>
+  </apply>
+  <apply enter="only-purple" message="You can't enter the other team's `lSpawn Tower`r!">
+    <region name="purple-tower"/>
+  </apply>
+  <apply enter="only-orange" message="You can't use the other team's `lteleporters`r!">
+    <region name="orange-portals"/>
+  </apply>
+  <apply enter="only-purple" message="You can't use the other team's `lteleporters`r!">
+    <region name="purple-portals"/>
+  </apply>
 </regions>
 <proximity-alarms>
   <!-- Orange Front Monument Proximity -->
