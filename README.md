@@ -68,3 +68,13 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 ```
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
 ```
+
+[Dev] [DTM/Gear] Weakening
+
+`Current Version: 0.0.3-br.1`
+
+`Current Release: -`
+
+```
+Coming Soon
+```
