@@ -29,7 +29,7 @@ Other tags state the maps gamemode(s)
 Maps
 ---
 
-[Rep/***Abn***] [Blitz] Dead Water (aka Deadwater Docks)
+[Rep/*Abn*] [Blitz] Dead Water (aka Deadwater Docks)
 
 `Current Version: 2.1.0` 
 
