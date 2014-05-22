@@ -79,7 +79,7 @@ https://oc.tc/forums/topics/535b956f12ca95accf000f09
 Coming Soon
 ```
 
-[Dev] [FFA/Blitz] Relapse
+[Dev] [Blitz] Relapse
 
 `Current Version: 0.1.2-pr.2`
 
