@@ -69,6 +69,16 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
 ```
 
+[Fin] [Blitz/UHC] Relapse
+
+`Current Version: 1.0.0`
+
+`Current Release: 1.0.0`
+
+```
+https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
+```
+
 [Dev] [DTM/Gear] Weakening
 
 `Current Version: 0.0.3-br.1`
@@ -79,12 +89,3 @@ https://oc.tc/forums/topics/535b956f12ca95accf000f09
 Coming Soon
 ```
 
-[Dev] [Blitz] Relapse
-
-`Current Version: 0.1.2-pr.2`
-
-`Current Release: -`
-
-```
-Coming Soon
-```
