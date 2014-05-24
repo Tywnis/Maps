@@ -50,6 +50,15 @@
 <killreward>
   <item amount="1">golden apple</item>
 </killreward>
+<filters>
+  <filter name="deny-world" parents="deny-world"/>
+</filters>
+<regions>
+  <cuboid name="playable" min="oo,oo,oo" max="-oo,oo,-oo"/>
+  <apply block="deny-world">
+    <region name="playable"/>
+  </apply>
+</regions>
 <gamerules>
   <doDaylightCycle>false</doDaylightCycle>
   <naturalRegeneration>false</naturalRegeneration>
