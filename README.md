@@ -89,3 +89,13 @@ https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
 Coming Soon
 ```
 
+[Dev] [KoTH/CP] Exalted
+
+`Current Version: 0.0.1-br.0.3`
+
+`Current Release: -`
+
+```
+Coming Soon
+```
+
