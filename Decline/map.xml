@@ -45,10 +45,10 @@
     <cuboid min="16,59,12" max="16,59,12"/>
   </default>
   <spawn team="orange" kit="orange" yaw="180">
-    <cuboid min="81,43,4" max="84,43,5"/>
+    <cuboid min="82,8,25" max="87,8,20"/>
   </spawn>
   <spawn team="purple" kit="purple" yaw="0">
-    <cuboid min="22,43,269" max="25,43,270"/>
+    <cuboid min="30,4,242" max="35,4,247"/>
   </spawn>
 </spawns>
 <destroyables materials="ice;glass;lapis block;emerald block" completion="100%">
