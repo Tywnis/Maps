@@ -143,6 +143,19 @@
       <cuboid min="10,38,26" max="10,38,26"/>
     </union>
   </region>
+  <!--- Regions so tnt can destory parts of the home teleporter towers -->
+  <region name="portal-destroyables">
+    <union>
+      <!-- Purple teleporters -->
+      <cuboid min="14,29,227" max="10,34,223"/>
+      <cuboid min="87,29,213" max="83,34,21"/>
+      <cuboid min="79,29,160" max="83,34,156"/>
+      <!-- Orange teleporters -->
+      <cuboid min="27,29,114" max="23,34,118"/>
+      <cuboid min="19,29,61" max="23,34,57"/>
+      <cuboid min="92,29,51" max="96,34,47"/>
+    </union>
+  </region>
   <region name="orange-monuments">
     <union>
       <cuboid min="75,32,61" max="69,40,55"/>
@@ -160,7 +173,7 @@
     <negative>
       <region name="orange-monuments"/>
       <region name="purple-monuments"/>
-      <!-- Home teleport towers? -->
+      <region name="portal-destroyables'/>
     </negative>
   </apply>
   <apply block-place="allow-tnt">
