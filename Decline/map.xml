@@ -231,6 +231,40 @@
     </detect>
   </proximity-alarm>
 </proximity-alarms>
+<portals>
+  <!-- Orange Back Portal -->
+  <portal x="@84" y="@8" z="@22" yaw="@180">
+    <cuboid min="94,36,49" max="94,38,49"/>
+  </portal>
+  <!-- Orange Mid Portal -->
+  <portal x="@84" y="@8" z="@22" yaw="@180">
+    <cuboid min="21,36,59" max="21,38,59"/>
+  </portal>
+  <!-- Orange Front Portal -->
+  <portal x="@84" y="@8" z="@22" yaw="@180">
+    <cuboid min="25,36,116" max="25,38,116"/>
+  </portal>
+  <!-- Orange Unbreakable Portal -->
+  <portal x="@84" y="@8" z="@22" yaw="@180">
+    <cuboid min="96,36,13" max="96,38,13"/>
+  </portal>
+  <!-- Purple Back Portal -->
+  <portal x="@32" y="@4" z="@244" yaw="@0">
+    <cuboid min="12,36,225" max="12,38,225"/>
+  </portal>
+  <!-- Purple Mid Portal -->
+  <portal x="@32" y="@4" z="@244" yaw="@0">
+    <cuboid min="85,36,215" max="85,38,215"/>
+  </portal>
+  <!-- Purple Front Portal -->
+  <portal x="@32" y="@4" z="@244" yaw="@0">
+    <cuboid min="81,36,158" max="81,38,158"/>
+  </portal>
+  <!-- Purple Unbreakable Portal -->
+  <portal x="@32" y="@4" z="@244" yaw="@0">
+    <cuboid min="10,38,26" max="10,38,26"/>
+  </portal>
+</portals>
 <itemremove>
   <item>wood sword</item>
   <item>arrow</item>
