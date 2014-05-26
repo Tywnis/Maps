@@ -218,36 +218,10 @@
     </detect>
   </proximity-alarm>
 </proximity-alarms>
-<toolrepair>
-  <tool>wood sword</tool>
-  <tool>stone sword</tool>
-  <tool>iron sword</tool>
-  <tool>diamond sword</tool>
-  <tool>leather helmet</tool>
-  <tool>leather chestplate</tool>
-  <tool>leather leggings</tool>
-  <tool>chainmail chestplate</tool>
-  <tool>chainmail leggings</tool>
-  <tool>iron chestplate</tool>
-  <tool>iron leggings</tool>
-  <tool>bow</tool>
-</toolrepair>
 <itemremove>
   <item>wood sword</item>
-  <item>stone sword</item>
-  <item>iron sword</item>
-  <item>diamond sword</item>
-  <item>leather helmet</item>
-  <item>leather chestplate</item>
-  <item>leather leggings</item>
-  <item>chain chestplate</item>
-  <item>chain leggings</item>
-  <item>iron chestplate</item>
-  <item>iron leggings</item>
   <item>arrow</item>
   <item>tnt</item>
-  <item>blaze rod</item>
-  <item>stone pickaxe</item>
   <item>glass bottle</item>
   <item>potion</item>
   <item>diamond</item>
@@ -260,24 +234,30 @@
   <item>spruce wood</item>
   <item>spruce wood stairs</item>
   <item>spruce wood slab</item>
-  <item>sign</item>
-  <item>jungle sapling</item>
-  <item>seeds</item>
 </itemremove>
 <!-- Soul-bound Items -->
 <itemkeep>
-  <item>diamond chestplate</item>
-  <item>gold helmet</item>
   <item>gold sword</item>
-  <item>bow</item>
+  <item>stone sword</item>
+  <item>iron sword</item>
+  <item>diamond sword</item>
+  <item>leather helmet</item>
+  <item>leather chestplate</item>
+  <item>leather leggings</item>
+  <item>chainmail chestplate</item>
+  <item>chainmail leggings</item>
+  <item>iron chestplate</item>
+  <item>iron leggings</item>
+  <item>gold chestplate</item>
+  <item>wood picaxe</item>
+  <item>stone pickaxe</item>
+  <item>iron pickaxe</item>
+  <item>nether star</item>
 <mobs>
   <filter>
     <spawn>spawner</spawn>
   </filter>
 </mobs>
-<modifybowprojectile>
-  <potion duration="6" amplifier="1">BLINDNESS</potion>
-</modifybowprojectile>
 <disabledamage>
   <!-- Disable fall damage -->
   <damage>fall</damage>
@@ -291,6 +271,7 @@
 </tnt>
 <killreward>
   <item amount="2" name="`3Shard of Twilight">nether quartz</item>
+  <item amount="1">golden apple</item>
 </killreward>
 <gamerules>
   <doDaylightCycle>false</doDaylightCycle>
