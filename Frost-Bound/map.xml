@@ -75,6 +75,28 @@
       <point>0,65,0</point>
     </default>
   </spawns>
+  <regions>
+    <region name="water">
+      <union>
+        <cuboid min="-23,20,7" max="-28,18,-3"/>
+        <cuboid min="4,4,-6" max="12,4,-11"/>
+      </union>
+    </region>
+    <region name="playable">
+      <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
+    </region>
+  </regions>
+  <apply block="deny-all">
+    <region name="playable"/>
+  </apply>
+  <apply kit="give-water-effects">
+    <region name="water"/>
+  </apply>
+  <apply kit="take-water-effects">
+    <negative>
+      <region name="water"/>
+    </negative>
+  </apply>
   <toolrepair>
     <tool>iron sword</tool>
     <tool>bow</tool>
