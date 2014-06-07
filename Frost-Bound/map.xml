@@ -32,11 +32,11 @@
       <boots name="`bIcy Boots">iron boots</boots>
       <potion duration="3" amplifier="10">regeneration</potion>
     </kit>
-    <kit name="red-spawn" force="true">
+    <kit name="red-spawn" force="true" parents="spawn">
       <helmet color="cd0000" name="`bWoolly Hat">leather helmet</helmet>
       <chestplate color="cd0000" name="`bWoolly Coat">leather chestplate</chestplate>
     </kit>
-    <kit name="blue-spawn" force="true">
+    <kit name="blue-spawn" force="true" parents="spawn">
       <helmet color="0066cc" name="`bWoolly Hat">leather helmet</helmet>
       <chestplate color="0066cc" name="`bWoolly Coat">leather chestplate</chestplate>
     </kit>
@@ -54,6 +54,27 @@
       <potion duration="oo" amplifier="1">night_vision</potion>
     </kit>
   </kits>
+  <spawns team="red">
+    <spawn kit="red-spawn" yaw="-38">
+      <cuboid min="-18,21,-14" max="-20,21,-16"/>
+    </spawn>
+    <spawn kit="red-spawn" yaw="-45">
+      <point>-10,6,-23</point>
+    </spawn>
+  </spawns>
+  <spawns team="blue">
+    <spawn kit="blue-spawn" yaw="135">
+      <cuboid min="20,21,21" max="18,21,19"/>
+    </spawn>
+    <spawn kit="blue-spawn" yaw="135">
+      <point>18,6,21</point>
+    </spawn>
+  </spawns>
+  <spawns>
+    <default kit="default" yaw="0">
+      <point>0,65,0</point>
+    </default>
+  </spawns>
   <toolrepair>
     <tool>iron sword</tool>
     <tool>bow</tool>
