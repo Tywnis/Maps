@@ -79,6 +79,16 @@ https://oc.tc/forums/topics/535b956f12ca95accf000f09
 https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
 ```
 
+[Fin] [Blitz] Frost-Bound
+
+`Current Version: 1.0.0`
+
+`Current Release: 1.0.0`
+
+```
+https://oc.tc/forums/topics/5391923267d5225a37000606
+```
+
 [Dev] [DTM/Gear] Weakening
 
 `Current Version: 0.0.3-br.1`
