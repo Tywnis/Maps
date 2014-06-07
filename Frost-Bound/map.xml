@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <map proto="1.3.2">
+  <include src="blitz-global.xml"/>
   <name>Frost-Bound</name>
   <version>1.0.0</version>
   <objective>Eliminate the other team within 5 minuets</objective>
@@ -53,4 +54,29 @@
       <potion duration="oo" amplifier="1">night_vision</potion>
     </kit>
   </kits>
+  <toolrepair>
+    <tool>iron sword</tool>
+    <tool>bow</tool>
+    <tool>leather helmet</tool>
+    <tool>leather chestplate</tool>
+    <tool>iron boots</tool>
+  </toolrepair>
+  <itemremove>
+    <item>torch</item>
+    <item>golden apple</item>
+    <item>bread</item>
+    <item>arrow</item>
+  </itemremove>
+  <disabledamage>
+    <damage>fall</damage>
+  </disabledamage>
+  <modifybowprojectile>
+    <projectile>Snowball</projectile>
+    <velocityMod>2.5</velocityMod>
+  </modifybowprojectile>
+  <killreward>
+    <item amount="3">arrow</item>
+    <item amount="1">golden apple</item>
+  </killreward>
+  <timelock>on</timelock>
 </map>
