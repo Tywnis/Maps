@@ -1,15 +1,56 @@
 <?xml version="1.0"?>
 <map proto="1.3.2">
-  <name>Relapse UHC</name>
+  <name>Frost-Bound</name>
   <version>1.0.0</version>
   <objective>Eliminate the other team within 5 minuets</objective>
   <authors>
     <author>minimitch0199</author>
   </authors>
   <blitz>
-    <time>5m</time>
-    <lives>1</lives>
-    <broadcastLives>false</broadcastLives>
+    <time>8m</time>
+    <lives>2</lives>
+    <broadcastLives>true</broadcastLives>
     <title>Blitz</title>
   </blitz>
-</maps>
+  <teams>
+    <team color="dark red" max="12" max-overfill="16">Red Team</team>
+    <team color="blue" max="12" max-overfill="16">Blue Team</team>
+  </teams>
+  <rules>
+    <rule>Spawn camping is not allowed!</rule>
+    <rule>Fall damage is disabled!</rule>
+  </rules>
+  <kits>
+    <kit name="spawn" force="false">
+      <item slot="0" name="`bIcy Blade" attributes="generic.attackDamage:add:3">iron sword</item>
+      <item slot="1" name="`Frost Bow">bow</item>
+      <item slot="2" amount="8">torch</item>
+      <item slot="7" amount="1" name="`bIcy Apple">golden apple</item>
+      <item slot="8" amount="16" name="`bCold Bread">bread</item>
+      <item slot="28" amount="8" name="`bIce tipped Arrows">arrow</item>
+      <boots name="`bIcy Boots">iron boots</boots>
+      <potion duration="3" amplifier="10">regeneration</potion>
+    </kit>
+    <kit name="red-spawn" force="true">
+      <helmet color="cd0000" name="`bWoolly Hat">leather helmet</helmet>
+      <chestplate color="cd0000" name="`bWoolly Coat">leather chestplate</chestplate>
+    </kit>
+    <kit name="blue-spawn" force="true">
+      <helmet color="0066cc" name="`bWoolly Hat">leather helmet</helmet>
+      <chestplate color="0066cc" name="`bWoolly Coat">leather chestplate</chestplate>
+    </kit>
+    <kit name="give-water-effects" force="true">
+      <potion duration="oo" amplifier="1">blindness</potion>
+      <potion duration="oo" amplifier="3">slow</potion>
+      <potion duration="oo" amplifier="1">weakness</potion>
+    </kit>
+    <kit name="take-water-effects" force="true">
+      <potion duration="0" amplifier="0">blindness</potion>
+      <potion duration="0" amplifier="0">slow</potion>
+      <potion duration="0" amplifier="0">weakness</potion>
+    </kit>
+    <kit name="default">
+      <potion duration="oo" amplifier="1">night_vision</potion>
+    </kit>
+  </kits>
+</map>
