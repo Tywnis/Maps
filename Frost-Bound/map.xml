@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<map proto="1.3.2">
+  <name>Relapse UHC</name>
+  <version>1.0.0</version>
+  <objective>Eliminate the other team within 5 minuets</objective>
+  <authors>
+    <author>minimitch0199</author>
+  </authors>
+  <blitz>
+    <time>5m</time>
+    <lives>1</lives>
+    <broadcastLives>false</broadcastLives>
+    <title>Blitz</title>
+  </blitz>
+</maps>
