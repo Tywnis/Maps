@@ -85,7 +85,6 @@
     <region name="playable">
       <cuboid min="-oo,oo,-oo" max="oo,oo,oo"/>
     </region>
-  </regions>
   <apply block="deny-all">
     <region name="playable"/>
   </apply>
@@ -97,6 +96,10 @@
       <region name="water"/>
     </negative>
   </apply>
+  <apply velocity="@0.0,@1.7,@0.0">
+    <point>0,8,-0</point>
+  </apply>
+  </regions>
   <toolrepair>
     <tool>iron sword</tool>
     <tool>bow</tool>
