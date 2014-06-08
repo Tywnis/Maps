@@ -89,7 +89,7 @@ https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
 https://oc.tc/forums/topics/5391923267d5225a37000606
 ```
 
-[Dev] [DTM/Gear] Weakening
+[Dev] [CP] Weakening
 
 `Current Version: 0.0.3-br.1`
 
