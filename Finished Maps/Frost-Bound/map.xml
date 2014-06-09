@@ -2,7 +2,7 @@
 <map proto="1.3.2">
   <include src="blitz-global.xml"/>
   <name>Frost-Bound</name>
-  <version>1.0.0</version>
+  <version>1.0.2</version>
   <objective>Eliminate the other team within 5 minuets</objective>
   <authors>
     <author>minimitch0199</author>
@@ -31,14 +31,15 @@
       <item slot="28" amount="8" name="`bIce tipped Arrows">arrow</item>
       <boots name="`bIcy Boots">iron boots</boots>
       <potion duration="3" amplifier="10">regeneration</potion>
+      <potion duration="6" amplifier="1">night_vision</potion>
     </kit>
     <kit name="red-spawn" force="true" parents="spawn">
       <helmet color="cd0000" name="`bWoolly Hat">leather helmet</helmet>
-      <chestplate color="cd0000" name="`bWoolly Coat">leather chestplate</chestplate>
+      <chestplate color="cd0000" name="`bWoolly Coat" enchantment="protection_environmental:1">leather chestplate</chestplate>
     </kit>
     <kit name="blue-spawn" force="true" parents="spawn">
       <helmet color="0066cc" name="`bWoolly Hat">leather helmet</helmet>
-      <chestplate color="0066cc" name="`bWoolly Coat">leather chestplate</chestplate>
+      <chestplate color="0066cc" name="`bWoolly Coat" enchantment="protection_environmental:1">leather chestplate</chestplate>
     </kit>
     <kit name="give-water-effects" force="true">
       <potion duration="oo" amplifier="1">blindness</potion>
