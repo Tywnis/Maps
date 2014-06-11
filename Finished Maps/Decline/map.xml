@@ -20,7 +20,7 @@
 <kits>
   <!-- Only given to Observers -->
   <kit name="default" force="false">
-    <potion duration="oo" amplifier="4">NIGHT_VISION</potion>
+    <potion duration="oo" amplifier="1">NIGHT_VISION</potion>
   </kit>
   <kit name="spawn-effects" force="false">
     <potion duration="10" amplifier="10">REGENERATION</potion>
@@ -28,7 +28,9 @@
     <potion duration="oo" amplifier="1">SPEED</potion>
   </kit>
   <kit name="spawn" parents="spawn-effects">
-    <item slot="0" name="`3Sword `7[Tier 0]" attributes="generic.attackDamage:add:2">wood sword</item>
+    <item slot="0" name="`3Sword `7[Tier 0]" attributes="generic.attackDamage:add:2" damage="-3000">wood sword</item>
+    <item slot="1" name="`3[Tier 0] Bow" damage="-3000">bow</item>
+    <item slot="2" amount="16">arrow</item>
     <item slot="8" amount="1" name="`3Shard of Twilight">nether quartz</item>
   </kit>
   <kit name="orange" parents="spawn">
@@ -308,6 +310,7 @@
   <item>stone pickaxe</item>
   <item>iron pickaxe</item>
   <item>nether star</item>
+</itemkeep>
 <mobs>
   <filter>
     <spawn>spawner</spawn>
