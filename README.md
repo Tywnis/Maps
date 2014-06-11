@@ -49,7 +49,7 @@ https://oc.tc/forums/topics/52d20c9512ca953cee01d7aa
 https://oc.tc/forums/topics/531ed64012ca95cdb00014ab
 ```
 
-[Fin] [Blitz/UHC/TDM] DeadWater - Abandoned Coast 
+[Fin] [Blitz/UHC|TDM] DeadWater - Abandoned Coast 
 
 `Current Version: 1.0.1b`
 
