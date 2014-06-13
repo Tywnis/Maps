@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <map proto="1.3.2">
 <name>Relapse UHC</name>
-<version>1.0.0</version>
-<objective>Eliminate the other team within 5 minuets</objective>
+<version>1.0.1</version>
+<objective>Eliminate the other team within 5 minutes</objective>
 <authors>
   <author>minimitch0199</author>
 </authors>
