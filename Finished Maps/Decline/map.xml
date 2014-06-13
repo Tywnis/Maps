@@ -14,7 +14,7 @@
   <rule>Fall damage is disabled!</rule>
 </rules>
 <teams>
-  <team color="orange" max="35" max-overfill="50">Orange Team</team>
+  <team color="gold" max="35" max-overfill="50">Orange Team</team>
   <team color="dark purple" max="35" max-overfill="50">Purple Team</team>
 </teams>
 <kits>
