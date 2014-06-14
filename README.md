@@ -61,9 +61,9 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 
 [Fin] [DTM/Gear] Decline 
 
-`Current Version: 1.3.0`
+`Current Version: 1.4.2`
 
-`Current Release: 1.3.0`
+`Current Release: 1.4.2`
 
 ```
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
@@ -71,9 +71,9 @@ https://oc.tc/forums/topics/535b956f12ca95accf000f09
 
 [Fin] [Blitz/UHC] Relapse
 
-`Current Version: 1.0.0`
+`Current Version: 1.0.4`
 
-`Current Release: 1.0.0`
+`Current Release: 1.0.4`
 
 ```
 https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
@@ -81,9 +81,9 @@ https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
 
 [Fin] [Blitz] Frost-Bound
 
-`Current Version: 1.0.0`
+`Current Version: 1.0.2`
 
-`Current Release: 1.0.0`
+`Current Release: 1.0.2`
 
 ```
 https://oc.tc/forums/topics/5391923267d5225a37000606
