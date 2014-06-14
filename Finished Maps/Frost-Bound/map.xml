@@ -30,8 +30,8 @@
       <item slot="8" amount="16" name="`bCold Bread">bread</item>
       <item slot="28" amount="8" name="`bIce tipped Arrows">arrow</item>
       <boots name="`bIcy Boots">iron boots</boots>
-      <potion duration="3" amplifier="10">regeneration</potion>
-      <potion duration="6" amplifier="1">night_vision</potion>
+      <potion duration="3" amplifier="10" potion-particles="false">regeneration</potion>
+      <potion duration="6" amplifier="1" potion-particles="false">night_vision</potion>
     </kit>
     <kit name="red-spawn" force="true" parents="spawn">
       <helmet color="cd0000" name="`bWoolly Hat">leather helmet</helmet>
