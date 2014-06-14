@@ -24,7 +24,7 @@ These map tags state in what stage the map is in or what type of gamemode it is.
 
 `[Abn]` Map has been abandoned
 
-Other tags state the maps gamemode(s)
+Other tags state the map's gamemode(s)
 
 Maps
 ---
