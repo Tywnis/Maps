@@ -99,9 +99,9 @@ https://oc.tc/forums/topics/5391923267d5225a37000606
 Coming Soon
 ```
 
-[Dev] [KoTH/CP] Exalted
+[Dev] [???] Unknown
 
-`Current Version: 0.0.1-br.0.3`
+`Current Version: -`
 
 `Current Release: -`
 
