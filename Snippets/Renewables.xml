@@ -1,0 +1,7 @@
+<renewables>
+    <renewable rate="1" grow="false" particles="true" sound="true" avoid-entities="false">
+        <region name="playable">
+        <renew>air</renew>
+        <replace>leaves:1</replace>
+    </renewable>
+</renewables>
