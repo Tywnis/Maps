@@ -97,7 +97,7 @@
       <region name="water"/>
     </negative>
   </apply>
-  <apply velocity="@0.0,@1.7,@0.0">
+  <apply velocity="0.0,@2.3,0.0">
     <point>0,8,-0</point>
   </apply>
   </regions>
