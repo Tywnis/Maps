@@ -21,21 +21,20 @@
         <item slot="0">iron sword</item>
         <item slot="1">bow</item>
         <item slot="28" amount="64">arrow</item>
-        <item slot="7" amount="64">golden carrot</item>
-        <item slot="8">golden apple</item>
+        <item slot="19" amount="64">arrow</item>
+        <item slot="8" amount="64">golden carrot</item>
+        <item slot="7">golden apple</item>
         <chestplate>iron chestplate</chestplate>
+        <leggings>gold leggings</leggings>
+        <boots>diamond boots</boots>
         <potion duration="5" amplifier="25">heal</potion>
         <potion duration="5" amplifier="25">damage resistance</potion>
     </kit>
     <kit name="red" parents="spawn">
-        <helmet color="ff0000">leather helmet</helmet>
-        <leggings color="ff0000">leather leggings</leggings>
-        <boots color="ff0000">leather boots</boots>
+        <helmet color="ff0000" locked="true">leather helmet</helmet>
     </kit>
     <kit name="blue" parents="spawn">
-        <helmet color="0000ff">leather helmet</helmet>
-        <leggings color="0000ff">leather leggings</leggings>
-        <boots color="0000ff">leather boots</boots>
+        <helmet color="0000ff" locked="true">leather helmet</helmet>
     </kit>
 </kits>
 <spawns>
@@ -88,8 +87,8 @@
 <itemremove>
     <item>iron chestplate</item>
     <item>leather helmet</item>
-    <item>leather leggings</item>
-    <item>leather boots</item>
+    <item>gold leggings</item>
+    <item>diamond boots</item>
     <item>arrow</item>
     <item>golden carrot</item>
     <item>golden apple</item>
