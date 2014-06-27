@@ -50,15 +50,23 @@
     </default>
 </spawns>
 <filters>
-    <filter name="filter-leaves" parents="deny-blocks">
+    <filter name="leaves" parents="deny-blocks">
         <allow>
             <block>leaves:1</block>
         </allow>
     </filter>
 </filters>
 <regions>
-    <apply block="filter-leaves">
-        <rectangle min="-oo,-oo" max="oo,oo" />
+    <region name="playable">
+        <cuboid min="-44,0,-39" max="45,37,41"/>
+    </region>
+    <apply block="leaves">
+        <region name="playable"/>
+    </apply>
+    <apply block="deny-blocks">
+        <negative>
+            <region name="playable"/>
+        </negative>
     </apply>
     <!-- left and right -->
     <apply velocity="@0.0,1.5,-0.5">
@@ -73,6 +81,13 @@
         <cylinder base="19,6,19" radius="1" height="1" />
     </apply>
 </regions>
+<renewables>
+    <renewable rate="1" grow="false" particles="true" sound="true" avoid-entities="false">
+        <region name="playable">
+        <renew>air</renew>
+        <replace>leaves:1</replace>
+    </renewable>
+</renewables>
 <king>
     <hills>
         <hill name="Center" capture-time="10s" points="3">
