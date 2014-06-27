@@ -20,6 +20,7 @@
     <kit name="spawn">
         <item slot="0">iron sword</item>
         <item slot="1">bow</item>
+        <item slot="2" amount="32" damage="1">leaves</item>
         <item slot="28" amount="64">arrow</item>
         <item slot="19" amount="64">arrow</item>
         <item slot="8" amount="64">golden carrot</item>
@@ -45,11 +46,18 @@
         <cylinder base="43,33,0" radius="1" height="0" />
     </spawn>
     <default yaw="-179">
-        <cylinder base="0,20,0" radius="3" height="0" />
+        <cylinder base="37,21,9" radius="3" height="0" />
     </default>
 </spawns>
+<filters>
+    <filter name="filter-leaves" parents="deny-blocks">
+        <allow>
+            <block>leaves:1</block>
+        </allow>
+    </filter>
+</filters>
 <regions>
-    <apply block="deny-blocks">
+    <apply block="filter-leaves">
         <rectangle min="-oo,-oo" max="oo,oo" />
     </apply>
     <!-- left and right -->
@@ -72,7 +80,7 @@
                 <cylinder base="0,20,0" radius="5" height="5" />
             </capture>
             <progress>
-                <cylinder base="1,19,1" radius="5" height="1" />
+                <cylinder base="1,15,1" radius="5" height="5" />
             </progress>
             <captured>
                 <cuboid min="0,0,0" max="0,0,0" />
@@ -92,6 +100,7 @@
     <item>arrow</item>
     <item>golden carrot</item>
     <item>golden apple</item>
+    <item>leaves:1</item>
 </itemremove>
 <toolreapir>
     <tool>bow</tool>
