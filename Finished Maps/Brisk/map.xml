@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<map proto="1.3.3">
+<name>Brisk</name>
+<version>1.0.0</version>
+<objective>Get the most points by holding the hill!</objective>
+<authors>
+    <author>minimitch0199</author>
+</authors>
+<contributors>
+    <contributor contribution="XML">ItsMiiOlly</contributor>
+</contributors>
+<rules>
+    <rule>Fall damage is disabled!</rule>
+</rules>
+<teams>
+    <team color="dark red" max="10">Red Team</team>
+    <team color="blue" max="10">Blue Team</team>
+</teams>
+<kits>
+    <kit name="spawn">
+        <item slot="0">iron sword</item>
+        <item slot="1">bow</item>
+        <item slot="28" amount="64">arrow</item>
+        <item slot="7" amount="64">golden carrot</item>
+        <item slot="8">golden apple</item>
+        <chestplate>iron chestplate</chestplate>
+        <potion duration="5" amplifier="25">heal</potion>
+        <potion duration="5" amplifier="25">damage resistance</potion>
+    </kit>
+    <kit name="red" parents="spawn">
+        <helmet color="ff0000">leather helmet</helmet>
+        <leggings color="ff0000">leather leggings</leggings>
+        <boots color="ff0000">leather boots</boots>
+    </kit>
+    <kit name="blue" parents="spawn">
+        <helmet color="0000ff">leather helmet</helmet>
+        <leggings color="0000ff">leather leggings</leggings>
+        <boots color="0000ff">leather boots</boots>
+    </kit>
+</kits>
+<spawns>
+    <spawn team="red" kit="red" yaw="-90">
+        <cylinder base="-42,33,0" radius="1" height="0" />
+    </spawn>
+    <spawn team="blue" kit="blue" yaw="89">
+        <cylinder base="43,33,0" radius="1" height="0" />
+    </spawn>
+    <default yaw="-179">
+        <cylinder base="0,20,0" radius="3" height="0" />
+    </default>
+</spawns>
+<regions>
+    <apply block="deny-blocks">
+        <rectangle min="-oo,-oo" max="oo,oo" />
+    </apply>
+    <!-- left and right -->
+    <apply velocity="@0.0,1.5,-0.5">
+        <cylinder base="0,8,-36" radius="1" height="1" />
+        <cylinder base="0,8,37" radius="1" height="1" />
+    </apply>
+    <!-- corners -->
+    <apply velocity="@0.0,1.5,0.0">
+        <cylinder base="-18,6,19" radius="1" height="1" />
+        <cylinder base="-18,6,-18" radius="1" height="1" />
+        <cylinder base="19,6,-18" radius="1" height="1" />
+        <cylinder base="19,6,19" radius="1" height="1" />
+    </apply>
+</regions>
+<king>
+    <hills>
+        <hill name="Center" capture-time="10s" points="3">
+            <capture>
+                <cylinder base="0,20,0" radius="5" height="5" />
+            </capture>
+            <progress>
+                <cylinder base="1,19,1" radius="5" height="1" />
+            </progress>
+            <captured>
+                <cuboid min="0,0,0" max="0,0,0" />
+            </captured>
+        </hill>
+    </hills>
+</king>
+<score>
+    <limit>500</limit>
+    <king/>
+</score>
+<itemremove>
+    <item>iron chestplate</item>
+    <item>leather helmet</item>
+    <item>leather leggings</item>
+    <item>leather boots</item>
+    <item>arrow</item>
+    <item>golden carrot</item>
+    <item>golden apple</item>
+</itemremove>
+<toolreapir>
+    <tool>bow</tool>
+    <tool>iron sword</tool>
+</toolreapir>
+<killreward>
+    <item amount="8">arrow</item>
+    <item>golden apple</item>
+</killreward>
+<disabledamage>
+    <damage>fall</damage>
+</disabledamage>
+</map>
