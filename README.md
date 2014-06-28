@@ -69,7 +69,7 @@ https://oc.tc/forums/topics/534391c412ca957ac8007653
 https://oc.tc/forums/topics/535b956f12ca95accf000f09
 ```
 
-[Fin] [Blitz/UHC] Relapse
+[Rep] [Blitz/UHC] Relapse
 
 `Current Version: 1.0.4`
 
@@ -87,6 +87,16 @@ https://oc.tc/forums/topics/537f1f7412ca95ef2c0027e2
 
 ```
 https://oc.tc/forums/topics/5391923267d5225a37000606
+```
+
+[Fin] [KoTH] Brisk
+
+`Current Version: 1.0.1`
+
+`Current Release: 1.0.1`
+
+```
+https://oc.tc/forums/topics/53ad4f4267d522e43d00c621
 ```
 
 [Dev] [CP] Weakening
