@@ -35,19 +35,19 @@
     </filter>
 </filters>
 <regions>
-    <apply velocity="@   ">
+    <apply velocity="@-0.4,0.9,0.4">
         <!-- Blue Pad -->
         <block>11,65,-20</block>
     </apply>
-    <apply velocity="@   ">
+    <apply velocity="@-0.4,0.9,-0.4">
         <!-- Red Pad -->
         <block>21,65,11</block>
     </apply>
-    <apply velocity="@   ">
+    <apply velocity="@0.4,0.9,-0.4">
         <!-- Yellow Pad -->
         <block>-10,65,21</block>
     </apply>
-    <apply velocity="@   ">
+    <apply velocity="@0.4,0.9,0.4">
         <!-- Purple Pad -->
         <block>-20,65,-10</block>
     </apply>
