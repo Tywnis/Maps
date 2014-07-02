@@ -56,20 +56,20 @@
     </apply>
 </regions>
 <spawns>
-    <default yaw="0">
-        <block>0,93,-43</block>
+    <default yaw="125">
+        <block>-44,99,-42</block>
     </default>
     <spawn team="blue" kit="blue" yaw="0">
-        <block>21,66,-30</block>
+        <block>0,63,-46</block>
     </spawn>
     <spawn team="red" kit="red" yaw="90">
-        <block>31,66,21</block>
+        <block>47,63,0</block>
     </spawn>
     <spawn team="yellow" kit="yellow" yaw="180">
-        <block>-20,66,31</block>
+        <block>0,63,47</block>
     </spawn>
     <spawn team="purple" kit="purple" yaw="-90">
-        <block>-30,66,-20</block>
+        <block>-46,63,0</block>
     </spawn>
 </spawns>
 <timelock>on</timelock>
