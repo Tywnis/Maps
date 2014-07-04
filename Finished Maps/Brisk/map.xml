@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0"?>
 <map proto="1.3.3">
   <name>Brisk</name>
   <version>1.0.2</version>
@@ -23,7 +23,7 @@
     <kit name="teams" parents="all">
       <item slot="0">stone sword</item>
       <item slot="1">bow</item>
-      <item slot="2" amount="12" damage="1">leaves</item>
+      <item slot="2" amount="8" damage="1">leaves</item>
       <item slot="28" amount="32">arrow</item>
       <item slot="7">golden apple</item>
       <item slot="8" amount="64">golden carrot</item>
@@ -124,6 +124,7 @@
     <item>apple</item>
     <item>sapling</item>
     <item>leaves</item>
+    <item>ladder</item>
   </itemremove>
   <toolrepair>
     <tool>bow</tool>
