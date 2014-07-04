@@ -1,131 +1,139 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <map proto="1.3.3">
-<name>Brisk</name>
-<version>1.0.1</version>
-<objective>Get the most points by holding the hill!</objective>
-<authors>
+  <name>Brisk</name>
+  <version>1.0.2</version>
+  <objective>Get the most points by holding the hill!</objective>
+  <authors>
     <author>minimitch0199</author>
-</authors>
-<contributors>
+  </authors>
+  <contributors>
     <contributor contribution="XML">ItsMiiOlly</contributor>
-</contributors>
-<rules>
+  </contributors>
+  <rules>
     <rule>Fall damage is disabled!</rule>
-</rules>
-<teams>
+  </rules>
+  <teams>
     <team color="dark red" max="10">Red Team</team>
     <team color="blue" max="10">Blue Team</team>
-</teams>
-<kits>
-    <kit name="spawn">
-        <item slot="0">iron sword</item>
-        <item slot="1">bow</item>
-        <item slot="2" amount="32" damage="1">leaves</item>
-        <item slot="28" amount="64">arrow</item>
-        <item slot="19" amount="64">arrow</item>
-        <item slot="8" amount="64">golden carrot</item>
-        <item slot="7">golden apple</item>
-        <chestplate>iron chestplate</chestplate>
-        <leggings>gold leggings</leggings>
-        <boots>diamond boots</boots>
-        <potion duration="5" amplifier="25">heal</potion>
-        <potion duration="5" amplifier="25">damage resistance</potion>
+  </teams>
+  <kits>
+    <kit name="all" potion-particles="false">
+      <potion duration="oo">night vision</potion>
     </kit>
-    <kit name="red" parents="spawn">
-        <helmet color="ff0000" locked="true">leather helmet</helmet>
+    <kit name="teams" parents="all">
+      <item slot="0">stone sword</item>
+      <item slot="1">bow</item>
+      <item slot="2" amount="12" damage="1">leaves</item>
+      <item slot="28" amount="32">arrow</item>
+      <item slot="7">golden apple</item>
+      <item slot="8" amount="64">golden carrot</item>
+      <leggings damage="-3000">iron leggings</leggings>
+      <potion duration="3" amplifier="3">heal</potion>
+      <potion duration="5" amplifier="3">damage resistance</potion>
     </kit>
-    <kit name="blue" parents="spawn">
-        <helmet color="0000ff" locked="true">leather helmet</helmet>
+    <kit name="red" parents="teams">
+      <helmet color="ff0000" locked="true">leather helmet</helmet>
+      <chestplate color="ff0000" locked="true">leather chestplate</chestplate>
+      <boots color="ff0000" locked="true">leather boots</boots>
     </kit>
-</kits>
-<spawns>
+    <kit name="blue" parents="teams">
+      <helmet color="0000ff" locked="true">leather helmet</helmet>
+      <chestplate color="0000ff" locked="true">leather chestplate</chestplate>
+      <boots color="0000ff" locked="true">leather boots</boots>
+    </kit>
+  </kits>
+  <spawns>
     <spawn team="red" kit="red" yaw="-90">
-        <cylinder base="-42,33,0" radius="1" height="0" />
+      <point yaw="-180">-42.5,33,0.5</point>
+      <point yaw="0">-42.5,33,0.5</point>
     </spawn>
-    <spawn team="blue" kit="blue" yaw="89">
-        <cylinder base="43,33,0" radius="1" height="0" />
+    <spawn team="blue" kit="blue" yaw="90">
+      <point yaw="-180">43.5,33,0.5</point>
+      <point yaw="0">43.5,33,0.5</point>
     </spawn>
-    <default yaw="-179">
-        <cylinder base="37,21,9" radius="3" height="0" />
+    <default yaw="90" kit="all">
+      <cylinder base="38.5,21,0.5" radius="3" height="0" />
     </default>
-</spawns>
-<filters>
-    <filter name="leaves" parents="deny-blocks">
-        <allow>
-            <block>leaves:1</block>
-        </allow>
+  </spawns>
+  <filters>
+    <filter name="only-leaves">
+      <block>leaves</block>
     </filter>
-</filters>
-<regions>
-    <region name="playable">
-        <cuboid min="-44,0,-39" max="45,37,41"/>
-    </region>
-    <apply block="leaves">
-        <region name="playable"/>
+  </filters>
+  <regions>
+    <apply block="only-leaves">
+      <rectangle min="-oo,-oo" max="oo,oo" />
     </apply>
-    <apply block="deny-blocks">
-        <negative>
-            <region name="playable"/>
-        </negative>
+    <!--  left and right  -->
+    <apply velocity="@0.0,2.1,0.5">
+      <cylinder base="0.5,8,-36.5" radius="1.2" height="1" />
     </apply>
-    <!-- left and right -->
-    <apply velocity="@0.0,1.5,-0.5">
-        <cylinder base="0,8,-36" radius="1" height="1" />
-        <cylinder base="0,8,37" radius="1" height="1" />
+    <apply velocity="@0.5,2,0.5">
+      <cylinder base="-18.5,6,-18.5" radius="1.2" height="1" />
     </apply>
-    <!-- corners -->
-    <apply velocity="@0.0,1.5,0.0">
-        <cylinder base="-18,6,19" radius="1" height="1" />
-        <cylinder base="-18,6,-18" radius="1" height="1" />
-        <cylinder base="19,6,-18" radius="1" height="1" />
-        <cylinder base="19,6,19" radius="1" height="1" />
+    <apply velocity="@0.5,2,-0.5">
+      <cylinder base="-18.5,6,19.5" radius="1.2" height="1" />
     </apply>
-</regions>
-<renewables>
-    <renewable rate="1" grow="false" particles="true" sound="true" avoid-entities="false">
-        <region name="playable">
-        <renew>air</renew>
-        <replace>leaves:1</replace>
+    <apply velocity="@0,2.1,-0.5">
+      <cylinder base="0.5,8,37.5" radius="1.2" height="1" />
+    </apply>
+    <apply velocity="@-0.5,2,-0.5">
+      <cylinder base="19.5,6,19.5" radius="1.2" height="1" />
+    </apply>
+    <apply velocity="@-0.5,2,0.5">
+      <cylinder base="19.5,6,-18.5" radius="1.2" height="1" />
+    </apply>
+  </regions>
+  <renewables>
+    <renewable rate="3" grow="false" particles="true" sound="true" avoid-entities="false">
+      <region>
+        <complement>
+          <cylinder base="0.5,0,0.5" radius="75" height="40" />
+          <cylinder base="0.5,14,0.5" radius="7" height="6" />
+        </complement>
+      </region>
     </renewable>
-</renewables>
-<king>
+  </renewables>
+  <king>
     <hills>
-        <hill name="Center" capture-time="10s" points="3">
-            <capture>
-                <cylinder base="0,20,0" radius="5" height="5" />
-            </capture>
-            <progress>
-                <cylinder base="1,15,1" radius="5" height="5" />
-            </progress>
-            <captured>
-                <cuboid min="0,0,0" max="0,0,0" />
-            </captured>
-        </hill>
+      <hill name="Hill" capture-time="10s" points="1" capture-rule="lead">
+        <capture>
+          <cylinder base="0.5,20,0.5" radius="5.7" height="5" />
+        </capture>
+        <progress>
+          <cylinder base="0.5,14,0.5" radius="7" height="6" />
+        </progress>
+        <captured>
+          <cuboid min="0,0,0" max="0,0,0" />
+        </captured>
+      </hill>
     </hills>
-</king>
-<score>
+  </king>
+  <score>
     <limit>500</limit>
-    <king/>
-</score>
-<itemremove>
-    <item>iron chestplate</item>
+    <king />
+  </score>
+  <itemremove>
+    <item>leather chestplate</item>
     <item>leather helmet</item>
-    <item>gold leggings</item>
-    <item>diamond boots</item>
+    <item>iron leggings</item>
+    <item>leather boots</item>
     <item>arrow</item>
     <item>golden carrot</item>
     <item>golden apple</item>
-    <item>leaves:1</item>
-</itemremove>
-<toolreapir>
+    <item>apple</item>
+    <item>sapling</item>
+    <item>leaves</item>
+  </itemremove>
+  <toolrepair>
     <tool>bow</tool>
-    <tool>iron sword</tool>
-</toolreapir>
-<killreward>
+    <tool>stone sword</tool>
+  </toolrepair>
+  <killreward>
     <item amount="8">arrow</item>
     <item>golden apple</item>
-</killreward>
-<disabledamage>
+  </killreward>
+  <disabledamage>
     <damage>fall</damage>
-</disabledamage>
+  </disabledamage>
 </map>
