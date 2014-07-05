@@ -13,8 +13,8 @@
     <rule>Fall damage is disabled!</rule>
   </rules>
   <teams>
-    <team color="dark red" max="10">Red Team</team>
-    <team color="blue" max="10">Blue Team</team>
+    <team color="dark red" max="10"  max-overfill="13">Red Team</team>
+    <team color="blue" max="10" max-overfill="13">Blue Team</team>
   </teams>
   <kits>
     <kit name="all" potion-particles="false">
