@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <map proto="1.3.3">
   <name>Brisk</name>
-  <version>1.0.2</version>
+  <version>1.1.3</version>
   <objective>Get the most points by holding the hill!</objective>
   <authors>
     <author>minimitch0199</author>
@@ -27,7 +27,7 @@
       <item slot="28" amount="32">arrow</item>
       <item slot="7">golden apple</item>
       <item slot="8" amount="64">golden carrot</item>
-      <leggings damage="-3000">iron leggings</leggings>
+      <leggings damage="-3000" locked="true">iron leggings</leggings>
       <potion duration="3" amplifier="3">heal</potion>
       <potion duration="5" amplifier="3">damage resistance</potion>
     </kit>
