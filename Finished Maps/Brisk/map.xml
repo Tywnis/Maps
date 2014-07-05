@@ -59,9 +59,17 @@
     <filter name="only-leaves">
       <block>leaves</block>
     </filter>
+    <filter name="deny-void">
+      <deny><void/></deny>
+    </filter>
   </filters>
   <regions>
-    <apply block="only-leaves">
+    <apply block="deny-void" message="You may not edit the void area">
+      <negative>
+        <rectangle min="-oo,-oo" max="oo,oo" />
+      </negative>
+    </apply>
+    <apply block="only-leaves" message="You may only interact with leaves">
       <rectangle min="-oo,-oo" max="oo,oo" />
     </apply>
     <!--  left and right  -->
