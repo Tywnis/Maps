@@ -23,7 +23,7 @@
     <kit name="teams" parents="all">
       <item slot="0">stone sword</item>
       <item slot="1">bow</item>
-      <item slot="2" amount="8" damage="1">leaves</item>
+      <item slot="2" amount="6" damage="1">leaves</item>
       <item slot="28" amount="32">arrow</item>
       <item slot="7">golden apple</item>
       <item slot="8" amount="64">golden carrot</item>
@@ -131,8 +131,13 @@
     <tool>stone sword</tool>
   </toolrepair>
   <killreward>
-    <item amount="8">arrow</item>
+    <item amount="3">arrow</item>
     <item>golden apple</item>
+  </killreward>
+  <killreward>
+    <kill-streak count="3">
+      <item damage="1" amount="3">leaves</item>
+    </kill-streak>
   </killreward>
   <disabledamage>
     <damage>fall</damage>
